@@ -1,0 +1,16 @@
+.miboton{
+    background-color: #f10303;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 4px;
+    padding-top: 6px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+}
+.miboton:hover{
+    background-color: #f19203;
+}
