@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Books>
+    <book>
+        <name>El Quijote</name>
+        <author>Cervantes</author>
+        <publisher></publisher>
+        <isbn>1</isbn>
+    </book>
+    <book>
+        <name>El SDLA</name>
+        <author>Tolkien</author>
+        <publisher></publisher>
+        <isbn>2</isbn>
+    </book>
+</Books>
