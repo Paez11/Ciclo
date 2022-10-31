@@ -21,14 +21,14 @@ void main(){
 			printf("fallo en fork \n");
 		}
 		else if(pidn1==0){
-			printf("Proceso nieto 1 %d y mi padre es %d,acabo de crear 					el directorio nieto1\n", 					getpid(),getppid());
+			printf("Proceso nieto 1 %d y mi padre es %d,acabo de crear el directorio nieto1\n",getpid(),getppid());
 			fflush(stdout);
 			system(comandoNieto1);
 			exit(0);
 		}
 		else{
 			wait(NULL);
-			printf("Proceso hijo 1 %d y mi padre es %d \n", getpid(), 				getppid());
+			printf("Proceso hijo 1 %d y mi padre es %d \n", getpid(),getppid());
 			fflush(stdout);
 			system("ls ~/");
 		}
@@ -48,7 +48,7 @@ void main(){
 			printf("fallo en fork \n");
 		}
 		else if(pidn2==0){
-			printf("Proceso nieto 2 %d y mi padre es %d,acabo de crear 					el directorio nieto2\n", 					getpid(),getppid());
+			printf("Proceso nieto 2 %d y mi padre es %d,acabo de crear el directorio nieto2\n",getpid(),getppid());
 			fflush(stdout);
 			system(comandoNieto2);
 			exit(0);
@@ -56,7 +56,7 @@ void main(){
 		else{
 			int status;
 			waitpid(pidn2,&status,0);
-			printf("Proceso hijo 2 %d y mi padre es %d \n", getpid(), 				getppid());
+			printf("Proceso hijo 2 %d y mi padre es %d \n", getpid(),getppid());
 			fflush(stdout);
 			system("ls ~/");
 		}

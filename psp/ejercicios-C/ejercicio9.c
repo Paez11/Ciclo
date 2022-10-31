@@ -54,7 +54,6 @@ int main(){
 			printf("Error");
 		break;
 		case 0: 
-			pause();
 			signal( SIGUSR1, manejador);
 			pause();
 		break;
