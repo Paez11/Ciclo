@@ -1,0 +1,14 @@
+table {
+    border-style: dashed;
+    border-color: red;
+}
+th {
+    border-style: dashed;
+    border-color: red;
+    background-color:rgb(255, 217, 217);
+}
+td {
+    border-style: dashed;
+    border-color: red;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+table{
+    border-style: solid;
+    border-color: rgb(212, 67, 67);
+    border-radius: 6px;
+    background-color: rgb(255, 255, 205);
+    margin: auto;
+}
+th{
+    border-style: solid;
+    border-color: rgb(212, 67, 67);
+    border-radius: 1px;
+}
+td{
+    border-style: solid;
+    border-color: rgb(212, 67, 67);
+    border-radius: 1px;
+}
+td.shortcut{
+    white-space: pre-wrap;
+    width: 5px;
+    word-break: break-all;
+}
+td.comida{
+    font-weight: bold;
+    text-align: start;
+    vertical-align: baseline;
+}
+
+ul.listas{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+td.ISO{
+    background-color: red;
+}

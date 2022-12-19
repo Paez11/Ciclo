@@ -1,0 +1,56 @@
+h2{
+    text-align: center;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+table{
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: white;
+    padding-top: 0;
+    border-color: black;
+    margin: auto;
+    font-weight: bold;
+}
+
+td{
+    border: solid black 1px;
+    text-align: center;
+    padding: auto;
+}
+p{
+    min-height: fit-content;
+}
+td.seccion{
+    text-align: center;
+    padding: auto;
+    background-color: red;
+    color: white;
+}
+tr.capacidad{
+    text-align: center;
+    padding: auto;
+    background-color: grey;
+    font-size:xx-large;
+
+}
+.capacidad > :first-child {font-size: medium;}
+
+
+ul{
+    color: red;
+    text-align: start;
+}
+td.op1{
+    background-color: yellow;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#op2{
+    background-color: blue;
+}

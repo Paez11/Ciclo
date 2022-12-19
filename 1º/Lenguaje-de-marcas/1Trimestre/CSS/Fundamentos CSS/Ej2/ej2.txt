@@ -1,0 +1,3 @@
+En la hoja de estilos se ha creado a parte del estilo del parrafo (p), una clase (p.verse) en la que han 
+han cambiado el estilo. Luego en el html dentro de ese parrafo ha aplicado la clase. 
+Para aplicarlo a todo el poema solo debemos quitar la clase y el otro estilo general y se aplicará a todo.

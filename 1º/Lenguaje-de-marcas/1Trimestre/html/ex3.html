@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Formulario </title>
+    </head>
+    <link href="ex3.css" rel="stylesheet" href="ex3.css">
+    <body>
+        <h1> Formulario de reserva de salas </h1>
+        <form>
+            <table>
+                <tr>
+                    <td class="requirido">Tu nombre:</td>
+                    <td> 
+                        <label for="name"> </label><input type="text" id="name" name="name" value="" placeholder="nombre">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirido"> Tu correo electrónico </td> 
+                    <td> <label for="email"> </label><input type="email"  value=" " placeholder="correo electrónico"> </td>
+                </tr>
+                <tr>
+                    <td class="requirido"> Departamento: </td>
+                    <td> 
+                        <select>
+                            <option> ventas </option>
+                            <option> Compra </option>
+                            <option> Devolución </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirido">Tipo de sala que desea reservar:</td>
+                    <td> 
+                        <p> <input style="margin-left: 70px" type="radio" id="TipoA" name="select" value="Tipo A"> <label for="TipoA">Tipo A</label> </p>
+                        <p> <input style="margin-left: 70px" type="radio" id="TipoB" name="select" value="Tipo B"> <label for="TipoB">Tipo B</label> </p>
+                        <p> <input style="margin-left: 70px" type="radio" id="TipoC" name="select" value="Tipo C"> <label for="TipoC">Tipo C</label> </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Requisito extra:</td>
+                    <td> 
+                        <p> <input style="margin-left: 70px" type="checkbox" id="extra1" name="opcion1" value="extra 1"> <label for="extra1">Caballete y bolígrafos</label> </p>
+                        <p> <input style="margin-left: 70px" type="checkbox" id="extra2" name="opcion2" value="extra 2"> <label for="extra2">Televisión</label> </p>
+                        <p> <input style="margin-left: 70px" type="checkbox" id="extra3" name="opcion3" value="extra 3"> <label for="extra3">Café, té y agua</label> </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirido"> Fecha de reserva: </td>
+                    <td> 
+                        <input type="date" id="fecha" name="fecha" value="fecha"> <label for="fecha"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="requirido"> Hora de reserva: </td>
+                    <td>
+                        <input type="time" id="hora" name="hora" value="hora"> <label for="hora"></label>
+                    </td>
+                </tr>
+            </table>
+            
+        </form>
+    </body>
+</html>

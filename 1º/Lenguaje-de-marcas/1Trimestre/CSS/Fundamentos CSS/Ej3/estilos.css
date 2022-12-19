@@ -1,0 +1,46 @@
+/* This is a comment */
+/* Style Sheet for Jaberwocky Tutorial */
+
+/* Body */
+/* Esta funcion es para darle un color de fondo al cuerpo del html. En este caso se aplica al cuerpo entero.*/
+body {background-color: aqua}
+
+/* Headers */
+/* Aqui podemos encontrar que se esta aplicando dos funciones a h1, la primera le da color al texto y la 
+la segunda es para darle tamaño a la fuente de la letra. Este ultimo puedes controlarlo en px, cm o en 
+este caso pt.*/
+h1 {color:maroon; font-size:20pt}
+
+/* HR (Hard Rule = line) */
+/* Le da color al hr (la linea de separación que hay entre los contenedores de la página del poema. En este
+caso al ser tan delgada y un color oscuro no se puede llegar a apreciar. */
+hr {color:navy}
+
+/* Paragraphs */
+/* En el primer caso le esta dando un estilo en general a todos los parafros que hay. Le da tamaño a la letra
+y mete más margen a la izquierda para que no se pegue al borde de la página.
+Por otro lado tenemos que a creado una clase de parafro al que le da un color y margen que corresponde a los
+dos primeros versos del poema.*/
+p {font-size:12pt; margin-left: 15px}
+p.verse {color:maroon; margin-left: 60px}
+
+/* Divs */
+
+/* Links */
+/*Ha introducido un pseudoselector para cada una de las opciones que puede pasar en el link.
+La primera es que por defecto todos los links serán de color verde.
+La segunda es que si ya has entrado en el link cambiara su color a amarillo.
+La tercera es que si pones el curso encima del link se cambiara a color negro.
+La cuarta es que si haces click en el link cambiara en un instante a un color azul.*/
+a:link     {color:green}
+a:visited  {color:yellow}
+a:hover    {color:black}
+a:active   {color:blue}
+
+/* Navigation */
+
+/* Classes used by all html elements */
+
+/* Ids */
+
+

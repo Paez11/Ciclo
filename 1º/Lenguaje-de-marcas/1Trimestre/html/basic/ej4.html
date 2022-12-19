@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Formulario azul </title>
+    </head>
+    <link href="j4.css" rel="stylesheet" href="j4.css">
+    <body>
+        <form>
+            <h1 style="padding-left: 20px; font-size: 40px;"> Reservation Request </h1>
+            <fieldset>
+                <legend> General Information </legend>
+                <table>
+                    <tr>
+                        <td> <label for="fecha"> Arrival date: </label> </td>
+                        <td> <input type="date"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="name"> Nights: </label>  </td>
+                        <td> <input type="text" placeholder="three"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="name"> Adults: </label> </td>
+                        <td> <input type="number" style="width: 35px;" placeholder="1"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="children"> children </label> </td>
+                        <td> <input type="number" style="width: 35px;" placeholder="0" > </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend> Preferences </legend>
+                <table>
+                    <tr>
+                        <td> <label for="Room"> Room Type: </label> <input type="radio" name="Room" checked> <label for="Standar"> Standar </label> <input type="radio" name="Room">  <label for="Business"> Business </label>  <input type="radio" name="Room">  <label for="Suite"> Suite </label> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Bed"> Bed Type: </label> <input type="radio" name="bed" checked> <label for="King"> King </label> <input type="radio" name="bed"> <label for="Double"> Double Double </label> </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox"> <label for="Smoking"> Smoking </label> </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend> Contact Information </legend>
+                <table>
+                    <tr>
+                        <td> <label class="l" for="Name"> Name: </label> </td>
+                        <td> <input type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label class="l" for="Email"> Email: </label></td>
+                        <td> <input type="email" placeholder="graceyahoo.com"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label class="l" for="Phone"> Phone: </label> </td>
+                        <td> <input type="text" placeholder="123-456-789"> </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <input type="submit" name="Submit Reservation" value="Submit Reservation" style="width: 200px; margin-bottom: 23px; margin-left: 30px;"> <input type="submit" value="Clear" style="width: 200px;">
+        </form>
+    </body>
+</html>

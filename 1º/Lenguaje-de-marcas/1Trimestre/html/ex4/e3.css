@@ -1,0 +1,17 @@
+table{
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: white;
+    margin: auto;
+}
+td{
+    
+    border: solid black 1px;
+    width: 60px;
+    font-weight: bold;
+    vertical-align: text-top;
+}
+tr{
+    height: 30px;
+}

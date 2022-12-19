@@ -1,0 +1,26 @@
+form{
+    border: cyan 2px solid;
+    background-color: white;
+    margin:auto;
+    width: 780px;
+    height: 600px;
+}
+table.cabecera{
+    background-color: cyan;
+    width: 780px;
+}
+fieldset{
+    border: black 1px solid;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    width: 400px;
+}
+tr.t{
+    margin-bottom: 50px;
+}
+td.e{
+    padding-bottom: 20px;
+}
+td{
+    font-weight: bold;
+}

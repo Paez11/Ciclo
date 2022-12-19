@@ -1,0 +1,37 @@
+table{
+    border: black 1px solid;
+    border-collapse: separate;
+    border-spacing: 2px;
+    background-color: white;
+    padding-top: 0;
+}
+th{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+td{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align:left;
+    font-style:inherit;
+}
+tr.iso{
+    background-color: red;
+}
+tr.gbd{
+    background-color: rgb(88, 88, 255);
+}
+tr.par{
+    background-color: rgb(206, 62, 250);
+}
+tr.fhw{
+    background-color: pink;
+}
+tr.fol{
+    background-color: green;
+}
+tr.lm{
+    background-color:rgb(158, 95, 37);
+}

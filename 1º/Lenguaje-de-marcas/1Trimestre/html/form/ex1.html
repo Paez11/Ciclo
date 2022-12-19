@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Formulario 1 </title>
+    </head>
+    <link href="x1.css" rel="stylesheet" href="x1.css">
+    <body>
+        <form>
+            <table style="border-collapse: collapse; border-spacing: 0px;">
+                <tr>
+                    <td class="cabecera"> Title: </td>
+                    <td class="cabecera"> Short Title: </td>
+                    <td class="cabecera"> Subj.: </td>
+                    <td class="cabecera"> Num.: </td>
+                    <td class="cabecera"> Section: </td>
+                    <td class="cabecera"> Year: </td>
+                </tr>
+                <tr>
+                    <td class="cabecera"> <input type="text" placeholder="Astronomy for Poets" style="width: 400px;"> </td>
+                    <td class="cabecera"> <input type="text" placeholder="Astr. for Poets"> </td>
+                    <td class="cabecera"> <input type="text" placeholder="BLST" style="width: 35px; border: none; font-size: xx-small; vertical-align: text-top;"> </td>
+                    <td class="cabecera"> <input type="number" placeholder="01" style="width: 35px;"> </td>
+                    <td class="cabecera"> <input type="number" placeholder="01" style="width: 40px;"> </td>
+                    <td class="cabecera"> <input type="number" placeholder="0920" style="width: 45px; border: none; font-size: xx-small; vertical-align: text-top;"> </td>
+                </tr>
+            </table>
+            <table class="medio">
+                <tr>
+                    <td style="text-align: center;"> 
+                        <input type="checkbox"> <label style="font-weight: 300;"> Enrollment <br> limit </label>
+                    </td>
+                    <td> <label> Num.: </label> <br> <input type="number" style="width: 30px; height: 20px;"> </td> 
+                    <td colspan="2"> <label> Rationale: </label> <br> <input type="text" style="width: 500px; height: 20px; margin-bottom: 10px;"> </td>
+                    <td colspan="4" rowspan="6" style="border-right: black solid 1px; border-left: black solid 1px; background-color: rgb(241, 236, 236)"> 
+                        Class <br> Meetings/Week: <br> <input type="number" placeholder="1" style="width: 35px;">
+                        <br>
+                        Class Hours/Week: <br> <input type="number" placeholder="0" style="width: 35px;">
+                        <br> 
+                        Semester(s) Offered: <br> <select style="width: 90px;"> <option> - None - </option> </select>
+                        <br>
+                        <input type="checkbox" checked> <label style="font-weight: 300;"> Incl. Semester in <br> prereqs. </label>
+                        <br>
+                        <input type="checkbox"> <label style="font-weight: 300;"> Offered only once </label>
+                        <br>
+                        <input type="checkbox"> <label style="font-weight: 300;"> Incl. in printed <br> catalog </label>
+                    </td>
+                    <td colspan="4" rowspan="6"> 
+                        Keywords:
+                        <br> 
+                        <input type="checkbox"> <label style="font-weight: 300;"> Science for non-majors </label>
+                        <br>
+                        <input type="checkbox"> <label style="font-weight: 300;"> Find arts for non-majors </label>
+                        <br>
+                        <input type="checkbox"> <label style="font-weight: 300;"> Lab science course </label>
+                        <br>
+                        <input type="checkbox"> <label style="font-weight: 300;"> Artistic practise </label>
+                        <br>
+                        <input type="checkbox"> <label style="font-weight: 300;"> Foreign language/culture <br> taught in English </label>
+                        <br>
+                        <input type="checkbox"> <label style="font-weight: 300;"> Community based learning </label>
+                        <br>
+                        <input type="checkbox"> <label style="font-weight: 300;"> Writting attentive </label> 
+                        <br>
+                        <input type="checkbox"> <label style="font-weight: 300;"> Writting intensive </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background-color: rgb(221, 213, 213);"> 
+                        <input type="checkbox"> <label style="font-weight: 300;"> Consent <br> required </label> 
+                    </td>
+                    <td colspan="2" style="background-color: rgb(221, 213, 213);"> <label> Rationale: </label> <br> <input type="text" style="width: 500px; height: 20px; margin-bottom: 10px;"> </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;"> 
+                        <input type="checkbox"> <label style="font-weight: 300;"> Limit class <br> level </label> 
+                    </td>
+                    <td> <label> Code: </label> <br> <input type="text" style="width: 30px; height: 20px;"> </td>
+                    <td colspan="2"> <label> Rationale: </label> <br> <input type="text" style="width: 500px; height: 20px; margin-bottom: 18px;"> <br> <label> How to gandle over-enrollment: </label> <br> <input type="text" style="width: 500px; height: 20px; margin-bottom: 10px;"> </td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="2" style="background-color: rgb(221, 213, 213);"> 
+                        <input type="checkbox"> <label style="font-weight: 300;"> Prerequisite </label> 
+                    </td>
+                    <td colspan="2" rowspan="2" style="background-color: rgb(221, 213, 213)"> 
+                        <label> Rationale: </label> <br> <input type="text" style="width: 500px; height: 20px; margin-bottom: 18px;"> <br>
+                        <label> Requiered Prereqs. (major, course): </label> <br> <input type="text" style="width: 500px; height: 20px; margin-bottom: 18px;"> <br> 
+                        <label> Requiered Prereqs.: </label> <br> <input type="text" style="width: 500px; height: 20px; margin-bottom: 10px;"> 
+                    </td>
+                </tr>
+            </table>
+            <table style="border-collapse: collapse;">
+                <tr>
+                    <td class="cabecera"> Approvals: </td>
+                    <td class="cabecera"> Date: </td>
+                    <td class="cabecera"> Comment: </td>
+                </tr>
+                <tr> 
+                    <td class="cabecera"> <input type="checkbox"> <label style="font-weight: 300; font-size: small;"> CEP </label> </td> 
+                    <td class="final"> <input type="text" style="width: 130px; margin-top: 8px;"> </td>
+                    <td class="final"> <input type="text" style="width: 500px;"> </td>
+                </tr>
+                <tr> 
+                    <td class="cabecera"> <input type="checkbox"> <label style="font-weight: 300; font-size: small;"> Committee of Six </label> </td>
+                    <td class="final"> <input type="text" style="width: 130px; margin-top: 8px;"> </td>
+                    <td class="final"> <input type="text" style="width: 500px; margin-top: 8px;"> </td> 
+                </tr>
+                <tr> 
+                    <td class="cabecera"> <input type="checkbox"> <label style="font-weight: 300; font-size: small;"> Faculty </label> </td>
+                    <td class="final"> <input type="text" style="width: 130px; margin-top: 8px;"> </td>
+                    <td class="final"> <input type="text" style="width: 500px; margin-top: 8px;"> </td> 
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
