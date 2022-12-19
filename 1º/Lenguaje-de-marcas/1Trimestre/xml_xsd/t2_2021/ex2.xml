@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE cluster>
+
+<cluster>
+    <nodos>
+        <nodo numero="1" nombre="Wall" ip="145.220.66.97">
+           <maquina_virtual numero="1">
+               <nombre> 001 </nombre>
+               <sistema_operativo> Ubuntu </sistema_operativo>
+               <interfaz_red>
+                   <ip> 179.45.209.244 </ip>
+                   <mac> 00:10:FA:6E:38:4A </mac>
+               </interfaz_red>
+           </maquina_virtual>
+           <maquina_virtual numero="2">
+                <nombre> 002 </nombre>
+                <sistema_operativo> Windows </sistema_operativo>
+                <interfaz_red>
+                    <ip> 156.109.29.125 </ip>
+                    <mac> 30:11:FA:6A:28:4A </mac>
+                </interfaz_red>
+            </maquina_virtual>
+            <maquina_virtual numero="3">
+                <nombre> 003 </nombre>
+                <sistema_operativo> Mac OS </sistema_operativo>
+                <interfaz_red>
+                    <ip> 26.47.60.106 </ip>
+                    <mac> 35:41:HV:2A:98:4A </mac>
+                </interfaz_red>
+            </maquina_virtual>
+        </nodo>
+        <nodo numero="2" nombre="Wall" ip="145.220.66.97">
+            <maquina_virtual numero="1">
+                <nombre> 001 </nombre>
+                <sistema_operativo> Ubuntu </sistema_operativo>
+                <interfaz_red>
+                    <ip> 179.45.209.244 </ip>
+                    <mac> 00:10:FA:6E:38:4A </mac>
+                </interfaz_red>
+            </maquina_virtual>
+            <maquina_virtual numero="2">
+                 <nombre> 002 </nombre>
+                 <sistema_operativo> Windows </sistema_operativo>
+                 <interfaz_red>
+                     <ip> 156.109.29.125 </ip>
+                     <mac> 30:11:FA:6A:28:4A </mac>
+                 </interfaz_red>
+             </maquina_virtual>
+             <maquina_virtual numero="3">
+                 <nombre> 003 </nombre>
+                 <sistema_operativo> Mac OS </sistema_operativo>
+                 <interfaz_red>
+                     <ip> 26.47.60.106 </ip>
+                     <mac> 35:41:HV:2A:98:4A </mac>
+                 </interfaz_red>
+             </maquina_virtual>
+        </nodo>
+        <nodo numero="3" nombre="Wall" ip="145.220.66.97">
+            <maquina_virtual numero="1">
+                <nombre> 001 </nombre>
+                <sistema_operativo> Ubuntu </sistema_operativo>
+                <interfaz_red>
+                    <ip> 179.45.209.244 </ip>
+                    <mac> 00:10:FA:6E:38:4A </mac>
+                </interfaz_red>
+            </maquina_virtual>
+            <maquina_virtual numero="2">
+                 <nombre> 002 </nombre>
+                 <sistema_operativo> Windows </sistema_operativo>
+                 <interfaz_red>
+                     <ip> 156.109.29.125 </ip>
+                     <mac> 30:11:FA:6A:28:4A </mac>
+                 </interfaz_red>
+             </maquina_virtual>
+             <maquina_virtual numero="3">
+                 <nombre> 003 </nombre>
+                 <sistema_operativo> Mac OS </sistema_operativo>
+                 <interfaz_red>
+                     <ip> 26.47.60.106 </ip>
+                     <mac> 35:41:HV:2A:98:4A </mac>
+                 </interfaz_red>
+             </maquina_virtual>
+         </nodo>
+         <nodo numero="4" nombre="Wall" ip="145.220.66.97">
+            <maquina_virtual numero="1">
+                <nombre> 001 </nombre>
+                <sistema_operativo> Ubuntu </sistema_operativo>
+                <interfaz_red>
+                    <ip> 179.45.209.244 </ip>
+                    <mac> 00:10:FA:6E:38:4A </mac>
+                </interfaz_red>
+            </maquina_virtual>
+            <maquina_virtual numero="2">
+                 <nombre> 002 </nombre>
+                 <sistema_operativo> Windows </sistema_operativo>
+                 <interfaz_red>
+                     <ip> 156.109.29.125 </ip>
+                     <mac> 30:11:FA:6A:28:4A </mac>
+                 </interfaz_red>
+             </maquina_virtual>
+             <maquina_virtual numero="3">
+                 <nombre> 003 </nombre>
+                 <sistema_operativo> Mac OS </sistema_operativo>
+                 <interfaz_red>
+                     <ip> 26.47.60.106 </ip>
+                     <mac> 35:41:HV:2A:98:4A </mac>
+                 </interfaz_red>
+             </maquina_virtual>
+         </nodo>
+         <nodo numero="5" nombre="Wall" ip="145.220.66.97">
+            <maquina_virtual numero="1">
+                <nombre> 001 </nombre>
+                <sistema_operativo> Ubuntu </sistema_operativo>
+                <interfaz_red>
+                    <ip> 179.45.209.244 </ip>
+                    <mac> 00:10:FA:6E:38:4A </mac>
+                </interfaz_red>
+            </maquina_virtual>
+            <maquina_virtual numero="2">
+                 <nombre> 002 </nombre>
+                 <sistema_operativo> Windows </sistema_operativo>
+                 <interfaz_red>
+                     <ip> 156.109.29.125 </ip>
+                     <mac> 30:11:FA:6A:28:4A </mac>
+                 </interfaz_red>
+             </maquina_virtual>
+             <maquina_virtual numero="3">
+                 <nombre> 003 </nombre>
+                 <sistema_operativo> Mac OS </sistema_operativo>
+                 <interfaz_red>
+                     <ip> 26.47.60.106 </ip>
+                     <mac> 35:41:HV:2A:98:4A </mac>
+                 </interfaz_red>
+             </maquina_virtual>
+         </nodo>
+    </nodos>
+</cluster>

@@ -1,0 +1,111 @@
+.fondo {
+    /* Center the content */
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+
+    /* Background */
+    background-color: #4E80A5;
+}
+.cabecera{
+    color: white;
+    text-align: center;
+    border-bottom: white solid 1px;
+    font-weight: 300;
+    margin: auto;
+    font-family: ABeeZee, sans-serif;
+}
+.a{
+    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+td:first-of-type{
+    font-size: xx-large;
+}
+
+.cmd {
+    background-color: rgb(255 255 255);
+    border-radius: 4px;
+    color: rgb(78 128 165);
+    box-shadow: rgb(0 0 0 / 30%) 0px -2px 0px inset, rgb(0 0 0 / 40%) 0px 1px 1px;
+    padding: 0px;
+    padding-right: 8px;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+
+.cuenta{
+    background-color: #55C2A2;
+    border-radius: 8px;
+    color: rgb(255 255 255);
+    padding: 14px;
+    padding-right: 12px;
+    margin-right: 26px;
+    text-align: center;
+    border: #55C2A2 1px;
+}
+kbd>LOG IN{
+    background-color: transparent;
+}
+
+.medio{
+    justify-content: center;
+    margin: auto;
+    color: white;
+    margin-bottom: 60px;
+    font-family: ABeeZee, sans-serif;
+}
+
+
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+.container__column {
+    margin: 10px 16px;
+    flex-direction: column;
+    background-color: #32577A;
+    display: flex;
+    color: white;
+    
+}
+#studio{
+    font-family: ABeeZee, sans-serif;
+    text-transform: capitalize;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 0.1em;
+    letter-spacing: 0px;
+}
+
+.container__content {
+    /* Take available height */
+    flex: 1;
+    padding-top: 20px;
+    margin: 8px;
+    color: white;
+}
+div:last-of-type{
+    padding: 12px;
+    text-align: left;
+}
+#ult{
+    border-top: white solid 1px;
+    text-align: start;
+    padding-left: 0;
+    padding-top: 60px;
+}
+
+.entrada{
+    background-color: transparent;
+    border-radius: 8px;
+    color: rgb(255 255 255);
+    padding: 14px;
+    padding-right: 12px;
+    margin-right: 26px;
+    text-align: center;
+    border: #55C2A2 solid 1px;
+}

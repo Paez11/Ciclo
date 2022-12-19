@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE concesionario>
+
+<concesionario>
+    <marca>
+        <nombre> </nombre>
+        <pais_origen> </pais_origen>
+        <coches>
+            <coche>
+                <matricula> </matricula>
+                <anio__matricula> </anio__matricula>
+                <modelo> </modelo>
+                <num_plazas> </num_plazas>
+                <cc_cilindrada> </cc_cilindrada>
+            </coche>
+            <coche>
+                <matricula> </matricula>
+                <anio__matricula> </anio__matricula>
+                <modelo> </modelo>
+                <num_plazas> </num_plazas>
+                <cc_cilindrada> </cc_cilindrada>
+            </coche>
+        </coches>
+    </marca>
+    <marca>
+        <nombre> </nombre>
+        <pais_origen> </pais_origen>
+        <coches>
+            <coche>
+                <matricula> </matricula>
+                <anio__matricula> </anio__matricula>
+                <modelo> </modelo>
+                <num_plazas> </num_plazas>
+                <cc_cilindrada> </cc_cilindrada>
+            </coche>
+            <coche>
+                <matricula> </matricula>
+                <anio__matricula> </anio__matricula>
+                <modelo> </modelo>
+                <num_plazas> </num_plazas>
+                <cc_cilindrada> </cc_cilindrada>
+            </coche>
+        </coches>
+    </marca>
+    <marca>
+        <nombre> </nombre>
+        <pais_origen> </pais_origen>
+        <coches>
+            <coche>
+                <matricula> </matricula>
+                <anio__matricula> </anio__matricula>
+                <modelo> </modelo>
+                <num_plazas> </num_plazas>
+                <cc_cilindrada> </cc_cilindrada>
+            </coche>
+            <coche>
+                <matricula> </matricula>
+                <anio__matricula> </anio__matricula>
+                <modelo> </modelo>
+                <num_plazas> </num_plazas>
+                <cc_cilindrada> </cc_cilindrada>
+            </coche>
+        </coches>
+    </marca>
+    <marca>
+        <nombre> </nombre>
+        <pais_origen> </pais_origen>
+        <coches>
+            <coche>
+                <matricula> </matricula>
+                <anio__matricula> </anio__matricula>
+                <modelo> </modelo>
+                <num_plazas> </num_plazas>
+                <cc_cilindrada> </cc_cilindrada>
+            </coche>
+            <coche>
+                <matricula> </matricula>
+                <anio__matricula> </anio__matricula>
+                <modelo> </modelo>
+                <num_plazas> </num_plazas>
+                <cc_cilindrada> </cc_cilindrada>
+            </coche>
+        </coches>
+    </marca>
+    <marca>
+        <nombre> </nombre>
+        <pais_origen> </pais_origen>
+        <coches>
+            <coche>
+                <matricula> </matricula>
+                <anio__matricula> </anio__matricula>
+                <modelo> </modelo>
+                <num_plazas> </num_plazas>
+                <cc_cilindrada> </cc_cilindrada>
+            </coche>
+            <coche>
+                <matricula> </matricula>
+                <anio__matricula> </anio__matricula>
+                <modelo> </modelo>
+                <num_plazas> </num_plazas>
+                <cc_cilindrada> </cc_cilindrada>
+            </coche>
+        </coches>
+    </marca>
+</concesionario>

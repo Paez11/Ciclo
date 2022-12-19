@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE urlset>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="p2.xsd">
+   <url lastMod="2016-09-30" priority="0.8">
+      <loc>http://www.ejemplos.com/</loc>
+      <review>9</review>      
+   </url>
+   <url lastmod="2016-09-30" priority="0.3">
+      <loc>http://www.iestriana.com</loc>
+      <review>7</review>
+   </url>
+</urlset>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 3 U (http://www.xmlspy.com) by Majid Nasab (Galileo International) -->
+<xs:schema targetNamespace="http://ns.galileo.com" xmlns="http://ns.galileo.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GWS_FlightInformationRQ">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Flights" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Flight" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="airline" type="xs:string"/>
+									<xs:attribute name="number" type="xs:string"/>
+									<xs:attribute name="date" type="xs:string"/>
+									<xs:attribute name="orig" type="xs:string" use="optional"/>
+									<xs:attribute name="dest" type="xs:string" use="optional"/>
+									<xs:attribute name="bic" type="xs:string" use="optional"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="returnFlightServiceInfo" type="xs:boolean" use="optional" default="0"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

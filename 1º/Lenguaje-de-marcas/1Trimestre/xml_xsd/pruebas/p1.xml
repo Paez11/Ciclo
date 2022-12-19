@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta>
+
+<receta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="p1.xsd">
+    <titulo> hola </titulo>
+    <ingredientes>
+        <ingrediente> buenas </ingrediente>
+    </ingredientes>
+    <procedimiento> procedimiento </procedimiento>
+</receta>

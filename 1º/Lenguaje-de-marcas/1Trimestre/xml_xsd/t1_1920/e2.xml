@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE centro_comercial>
+
+<centro_comercial>
+    <tiendas>
+        <tienda numero="1">
+            <nombre> </nombre>
+            <num_parcelas> </num_parcelas>
+            <num_metros_cuadrados> </num_metros_cuadrados>
+            <datos_contacto>
+                <nombre> </nombre>
+                <apellidos> </apellidos>
+                <telefono> </telefono>
+                <NSS> </NSS>
+            </datos_contacto>
+        </tienda>
+        <tienda numero="2">
+            <nombre> </nombre>
+            <num_parcelas> </num_parcelas>
+            <num_metros_cuadrados> </num_metros_cuadrados>
+            <datos_contacto>
+                <nombre> </nombre>
+                <apellidos> </apellidos>
+                <telefono> </telefono>
+                <NSS> </NSS>
+            </datos_contacto>
+        </tienda>
+        <tienda numero="3">
+            <nombre> </nombre>
+            <num_parcelas> </num_parcelas>
+            <num_metros_cuadrados> </num_metros_cuadrados>
+            <datos_contacto>
+                <nombre> </nombre>
+                <apellidos> </apellidos>
+                <telefono> </telefono>
+                <NSS> </NSS>
+            </datos_contacto>
+        </tienda>
+        <tienda numero="4">
+            <nombre> </nombre>
+            <num_parcelas> </num_parcelas>
+            <num_metros_cuadrados> </num_metros_cuadrados>
+            <datos_contacto>
+                <nombre> </nombre>
+                <apellidos> </apellidos>
+                <telefono> </telefono>
+                <NSS> </NSS>
+            </datos_contacto>
+        </tienda>
+        <tienda numero="5">
+            <nombre> </nombre>
+            <num_parcelas> </num_parcelas>
+            <num_metros_cuadrados> </num_metros_cuadrados>
+            <datos_contacto>
+                <nombre> </nombre>
+                <apellidos> </apellidos>
+                <telefono> </telefono>
+                <NSS> </NSS>
+            </datos_contacto>
+        </tienda>
+        <tienda numero="6">
+            <nombre> </nombre>
+            <num_parcelas> </num_parcelas>
+            <num_metros_cuadrados> </num_metros_cuadrados>
+            <datos_contacto>
+                <nombre> </nombre>
+                <apellidos> </apellidos>
+                <telefono> </telefono>
+                <NSS> </NSS>
+            </datos_contacto>
+        </tienda>
+        <tienda numero="7">
+            <nombre> </nombre>
+            <num_parcelas> </num_parcelas>
+            <num_metros_cuadrados> </num_metros_cuadrados>
+            <datos_contacto>
+                <nombre> </nombre>
+                <apellidos> </apellidos>
+                <telefono> </telefono>
+                <NSS> </NSS>
+            </datos_contacto>
+        </tienda>
+        <tienda numero="8">
+            <nombre> </nombre>
+            <num_parcelas> </num_parcelas>
+            <num_metros_cuadrados> </num_metros_cuadrados>
+            <datos_contacto>
+                <nombre> </nombre>
+                <apellidos> </apellidos>
+                <telefono> </telefono>
+                <NSS> </NSS>
+            </datos_contacto>
+        </tienda>
+        <tienda numero="9">
+            <nombre> </nombre>
+            <num_parcelas> </num_parcelas>
+            <num_metros_cuadrados> </num_metros_cuadrados>
+            <datos_contacto>
+                <nombre> </nombre>
+                <apellidos> </apellidos>
+                <telefono> </telefono>
+                <NSS> </NSS>
+            </datos_contacto>
+        </tienda>
+        <tienda numero="10">
+            <nombre> </nombre>
+            <num_parcelas> </num_parcelas>
+            <num_metros_cuadrados> </num_metros_cuadrados>
+            <datos_contacto>
+                <nombre> </nombre>
+                <apellidos> </apellidos>
+                <telefono> </telefono>
+                <NSS> </NSS>
+            </datos_contacto>
+        </tienda>
+    </tiendas>
+</centro_comercial>

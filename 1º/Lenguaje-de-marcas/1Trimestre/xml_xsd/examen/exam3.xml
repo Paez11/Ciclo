@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GWS_FlightInformationRQ>
+
+<GWS_FlightInformationRQ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsdexamen.xsd">
+    <Flights returnFlightServiceInfo="0">
+        <Flight airline="iberia" number="12" date="12-11-2021" orig="madrid" dest="francia" bic="boeing 747"> madrid-francia </Flight>
+        <Flight airline="iberia" number="10" date="12-12-2021" orig="madrid" dest="inglaterra" bic="boeing 747"> madrid-inglaterra </Flight>
+    </Flights>
+</GWS_FlightInformationRQ>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE libro>
+
+<libro>
+    <titulo> El universo en una cascara de nuez </titulo>
+    <editorial> bantam spectra </editorial>
+    <num_paginas>  </num_paginas>
+    <autor> Stephen Hawking </autor>
+    <capitulo numero="1">
+        <pag_inicio> </pag_inicio>
+        <pag_final> </pag_final>
+    </capitulo>
+    <capitulo numero="2">
+        <pag_inicio> </pag_inicio>
+        <pag_final> </pag_final>
+    </capitulo>
+    <capitulo numero="3">
+        <pag_inicio> </pag_inicio>
+        <pag_final> </pag_final>
+    </capitulo>
+    <capitulo numero="4">
+        <pag_inicio> </pag_inicio>
+        <pag_final> </pag_final>
+    </capitulo>
+    <capitulo numero="5">
+        <pag_inicio> </pag_inicio>
+        <pag_final> </pag_final>
+    </capitulo>
+    <capitulo numero="6">
+        <pag_inicio> </pag_inicio>
+        <pag_final> </pag_final>
+    </capitulo>
+</libro>

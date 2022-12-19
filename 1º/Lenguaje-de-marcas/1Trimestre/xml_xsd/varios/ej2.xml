@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder orderid="swfdegg">
+    <orderperson/>
+    <shipto>
+        <name> Jose Francisco de los Rios </name>
+        <adress> C/ Nuevo Mundo ed.5 p.2 </adress>
+        <city> Nuevo Mexico </city>
+        <country> Reino Helado </country>
+        <item> caja de herramientas </item>
+            <name> Hq 12 ultimate </name>
+            <note> vienen incluidas pegatinas </note>
+            <quantity> 1 </quantity>
+            <price> 45,32 </price>
+    </shipto>
+</shiporder>

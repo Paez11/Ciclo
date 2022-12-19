@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE directorio>
+
+<directorio>
+    <edificio numero="1" nombre="Supreme">
+        <direccion> Ave. de las rosas </direccion>
+        <num_plantas> 3 </num_plantas>
+        <plantas>
+            <planta>
+                <numero> 1 </numero>
+                <num_cuadrados> 500 m^2 </num_cuadrados>
+                <empleados>
+                    <empleado>
+                        <puesto> director </puesto>
+                        <datos_personales>
+                            <nombre> Xavier </nombre>
+                            <edad> 56 </edad>
+                            <dni> 23764589L </dni>
+                            <telefono> 631234322 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957322412 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> contable </puesto>
+                        <datos_personales>
+                            <nombre> Miguel </nombre>
+                            <edad> 32 </edad>
+                            <dni> 23733532P </dni>
+                            <telefono> 601567845 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957879766 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> programador </puesto>
+                        <datos_personales>
+                            <nombre> Corintio </nombre>
+                            <edad> 25 </edad>
+                            <dni> 77998844P </dni>
+                            <telefono> 654122332 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957768696 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Supervisor </puesto>
+                        <datos_personales>
+                            <nombre> Andrés </nombre>
+                            <edad> 44 </edad>
+                            <dni> 21122211K </dni>
+                            <telefono> 642753214 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957884563 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Conserje </puesto>
+                        <datos_personales>
+                            <nombre> Fabian </nombre>
+                            <edad> 63 </edad>
+                            <dni> 52434408U </dni>
+                            <telefono> 678945566 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957883552 </ext_telf>
+                    </empleado>
+                </empleados>
+            </planta>
+            <planta>
+                <numero> 2 </numero>
+                <num_cuadrados> 500 m^2 </num_cuadrados>
+                <empleados>
+                    <empleado>
+                        <puesto> director </puesto>
+                        <datos_personales>
+                            <nombre> Xavier </nombre>
+                            <edad> 56 </edad>
+                            <dni> 23764589L </dni>
+                            <telefono> 631234322 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957322412 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> contable </puesto>
+                        <datos_personales>
+                            <nombre> Miguel </nombre>
+                            <edad> 32 </edad>
+                            <dni> 23733532P </dni>
+                            <telefono> 601567845 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957879766 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> programador </puesto>
+                        <datos_personales>
+                            <nombre> Corintio </nombre>
+                            <edad> 25 </edad>
+                            <dni> 77998844P </dni>
+                            <telefono> 654122332 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957768696 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Supervisor </puesto>
+                        <datos_personales>
+                            <nombre> Andrés </nombre>
+                            <edad> 44 </edad>
+                            <dni> 21122211K </dni>
+                            <telefono> 642753214 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957884563 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Conserje </puesto>
+                        <datos_personales>
+                            <nombre> Fabian </nombre>
+                            <edad> 63 </edad>
+                            <dni> 52434408U </dni>
+                            <telefono> 678945566 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957883552 </ext_telf>
+                    </empleado>
+                </empleados>
+            </planta>
+            <planta>
+                <numero> 3 </numero>
+                <num_cuadrados> 500 m^2 </num_cuadrados>
+                <empleados>
+                    <empleado>
+                        <puesto> director </puesto>
+                        <datos_personales>
+                            <nombre> Xavier </nombre>
+                            <edad> 56 </edad>
+                            <dni> 23764589L </dni>
+                            <telefono> 631234322 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957322412 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> contable </puesto>
+                        <datos_personales>
+                            <nombre> Miguel </nombre>
+                            <edad> 32 </edad>
+                            <dni> 23733532P </dni>
+                            <telefono> 601567845 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957879766 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> programador </puesto>
+                        <datos_personales>
+                            <nombre> Corintio </nombre>
+                            <edad> 25 </edad>
+                            <dni> 77998844P </dni>
+                            <telefono> 654122332 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957768696 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Supervisor </puesto>
+                        <datos_personales>
+                            <nombre> Andrés </nombre>
+                            <edad> 44 </edad>
+                            <dni> 21122211K </dni>
+                            <telefono> 642753214 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957884563 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Conserje </puesto>
+                        <datos_personales>
+                            <nombre> Fabian </nombre>
+                            <edad> 63 </edad>
+                            <dni> 52434408U </dni>
+                            <telefono> 678945566 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957883552 </ext_telf>
+                    </empleado>
+                </empleados>
+            </planta>
+        </plantas>
+    </edificio>
+    <edificio numero="2" nombre="Implentu">
+        <direccion> C/ De la Marquesa </direccion>
+        <num_plantas> 3 </num_plantas>
+        <plantas>
+            <planta>
+                <numero> 1 </numero>
+                <num_cuadrados> 500 m^2 </num_cuadrados>
+                <empleados>
+                    <empleado>
+                        <puesto> director </puesto>
+                        <datos_personales>
+                            <nombre> Xavier </nombre>
+                            <edad> 56 </edad>
+                            <dni> 23764589L </dni>
+                            <telefono> 631234322 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957322412 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> contable </puesto>
+                        <datos_personales>
+                            <nombre> Miguel </nombre>
+                            <edad> 32 </edad>
+                            <dni> 23733532P </dni>
+                            <telefono> 601567845 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957879766 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> programador </puesto>
+                        <datos_personales>
+                            <nombre> Corintio </nombre>
+                            <edad> 25 </edad>
+                            <dni> 77998844P </dni>
+                            <telefono> 654122332 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957768696 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Supervisor </puesto>
+                        <datos_personales>
+                            <nombre> Andrés </nombre>
+                            <edad> 44 </edad>
+                            <dni> 21122211K </dni>
+                            <telefono> 642753214 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957884563 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Conserje </puesto>
+                        <datos_personales>
+                            <nombre> Fabian </nombre>
+                            <edad> 63 </edad>
+                            <dni> 52434408U </dni>
+                            <telefono> 678945566 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957883552 </ext_telf>
+                    </empleado>
+                </empleados>
+            </planta>
+            <planta>
+                <numero> 2 </numero>
+                <num_cuadrados> 500 m^2 </num_cuadrados>
+                <empleados>
+                    <empleado>
+                        <puesto> director </puesto>
+                        <datos_personales>
+                            <nombre> Xavier </nombre>
+                            <edad> 56 </edad>
+                            <dni> 23764589L </dni>
+                            <telefono> 631234322 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957322412 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> contable </puesto>
+                        <datos_personales>
+                            <nombre> Miguel </nombre>
+                            <edad> 32 </edad>
+                            <dni> 23733532P </dni>
+                            <telefono> 601567845 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957879766 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> programador </puesto>
+                        <datos_personales>
+                            <nombre> Corintio </nombre>
+                            <edad> 25 </edad>
+                            <dni> 77998844P </dni>
+                            <telefono> 654122332 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957768696 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Supervisor </puesto>
+                        <datos_personales>
+                            <nombre> Andrés </nombre>
+                            <edad> 44 </edad>
+                            <dni> 21122211K </dni>
+                            <telefono> 642753214 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957884563 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Conserje </puesto>
+                        <datos_personales>
+                            <nombre> Fabian </nombre>
+                            <edad> 63 </edad>
+                            <dni> 52434408U </dni>
+                            <telefono> 678945566 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957883552 </ext_telf>
+                    </empleado>
+                </empleados>
+            </planta>
+            <planta>
+                <numero> 3 </numero>
+                <num_cuadrados> 500 m^2 </num_cuadrados>
+                <empleados>
+                    <empleado>
+                        <puesto> director </puesto>
+                        <datos_personales>
+                            <nombre> Xavier </nombre>
+                            <edad> 56 </edad>
+                            <dni> 23764589L </dni>
+                            <telefono> 631234322 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957322412 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> contable </puesto>
+                        <datos_personales>
+                            <nombre> Miguel </nombre>
+                            <edad> 32 </edad>
+                            <dni> 23733532P </dni>
+                            <telefono> 601567845 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957879766 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> programador </puesto>
+                        <datos_personales>
+                            <nombre> Corintio </nombre>
+                            <edad> 25 </edad>
+                            <dni> 77998844P </dni>
+                            <telefono> 654122332 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957768696 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Supervisor </puesto>
+                        <datos_personales>
+                            <nombre> Andrés </nombre>
+                            <edad> 44 </edad>
+                            <dni> 21122211K </dni>
+                            <telefono> 642753214 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957884563 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Conserje </puesto>
+                        <datos_personales>
+                            <nombre> Fabian </nombre>
+                            <edad> 63 </edad>
+                            <dni> 52434408U </dni>
+                            <telefono> 678945566 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957883552 </ext_telf>
+                    </empleado>
+                </empleados>
+            </planta>
+        </plantas>
+    </edificio>
+    <edificio numero="3" nombre="Quertion">
+        <direccion> Ave. Juan de la carretera </direccion>
+        <num_plantas> 3 </num_plantas>
+        <plantas>
+            <planta>
+                <numero> 1 </numero>
+                <num_cuadrados> 500 m^2 </num_cuadrados>
+                <empleados>
+                    <empleado>
+                        <puesto> director </puesto>
+                        <datos_personales>
+                            <nombre> Xavier </nombre>
+                            <edad> 56 </edad>
+                            <dni> 23764589L </dni>
+                            <telefono> 631234322 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957322412 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> contable </puesto>
+                        <datos_personales>
+                            <nombre> Miguel </nombre>
+                            <edad> 32 </edad>
+                            <dni> 23733532P </dni>
+                            <telefono> 601567845 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957879766 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> programador </puesto>
+                        <datos_personales>
+                            <nombre> Corintio </nombre>
+                            <edad> 25 </edad>
+                            <dni> 77998844P </dni>
+                            <telefono> 654122332 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957768696 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Supervisor </puesto>
+                        <datos_personales>
+                            <nombre> Andrés </nombre>
+                            <edad> 44 </edad>
+                            <dni> 21122211K </dni>
+                            <telefono> 642753214 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957884563 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Conserje </puesto>
+                        <datos_personales>
+                            <nombre> Fabian </nombre>
+                            <edad> 63 </edad>
+                            <dni> 52434408U </dni>
+                            <telefono> 678945566 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957883552 </ext_telf>
+                    </empleado>
+                </empleados>
+            </planta>
+            <planta>
+                <numero> 2 </numero>
+                <num_cuadrados> 500 m^2 </num_cuadrados>
+                <empleados>
+                    <empleado>
+                        <puesto> director </puesto>
+                        <datos_personales>
+                            <nombre> Xavier </nombre>
+                            <edad> 56 </edad>
+                            <dni> 23764589L </dni>
+                            <telefono> 631234322 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957322412 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> contable </puesto>
+                        <datos_personales>
+                            <nombre> Miguel </nombre>
+                            <edad> 32 </edad>
+                            <dni> 23733532P </dni>
+                            <telefono> 601567845 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957879766 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> programador </puesto>
+                        <datos_personales>
+                            <nombre> Corintio </nombre>
+                            <edad> 25 </edad>
+                            <dni> 77998844P </dni>
+                            <telefono> 654122332 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957768696 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Supervisor </puesto>
+                        <datos_personales>
+                            <nombre> Andrés </nombre>
+                            <edad> 44 </edad>
+                            <dni> 21122211K </dni>
+                            <telefono> 642753214 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957884563 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Conserje </puesto>
+                        <datos_personales>
+                            <nombre> Fabian </nombre>
+                            <edad> 63 </edad>
+                            <dni> 52434408U </dni>
+                            <telefono> 678945566 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957883552 </ext_telf>
+                    </empleado>
+                </empleados>
+            </planta>
+            <planta>
+                <numero> 3 </numero>
+                <num_cuadrados> 500 m^2 </num_cuadrados>
+                <empleados>
+                    <empleado>
+                        <puesto> director </puesto>
+                        <datos_personales>
+                            <nombre> Xavier </nombre>
+                            <edad> 56 </edad>
+                            <dni> 23764589L </dni>
+                            <telefono> 631234322 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957322412 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> contable </puesto>
+                        <datos_personales>
+                            <nombre> Miguel </nombre>
+                            <edad> 32 </edad>
+                            <dni> 23733532P </dni>
+                            <telefono> 601567845 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957879766 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> programador </puesto>
+                        <datos_personales>
+                            <nombre> Corintio </nombre>
+                            <edad> 25 </edad>
+                            <dni> 77998844P </dni>
+                            <telefono> 654122332 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957768696 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Supervisor </puesto>
+                        <datos_personales>
+                            <nombre> Andrés </nombre>
+                            <edad> 44 </edad>
+                            <dni> 21122211K </dni>
+                            <telefono> 642753214 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957884563 </ext_telf>
+                    </empleado>
+                    <empleado>
+                        <puesto> Conserje </puesto>
+                        <datos_personales>
+                            <nombre> Fabian </nombre>
+                            <edad> 63 </edad>
+                            <dni> 52434408U </dni>
+                            <telefono> 678945566 </telefono>
+                        </datos_personales>
+                        <ext_telf> 957883552 </ext_telf>
+                    </empleado>
+                </empleados>
+            </planta>
+        </plantas>
+    </edificio>
+</directorio>

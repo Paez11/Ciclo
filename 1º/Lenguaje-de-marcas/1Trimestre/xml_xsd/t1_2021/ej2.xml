@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder orderid="swfdegg">
+    <orderperson/>
+    <shipto>
+        <name> Jose Francisco de los Rios </name>
+        <address> C/ Nuevo Mundo ed.5 p.2 </address>
+        <city> Nuevo Mexico </city>
+        <country> Reino Helado </country>
+    </shipto>
+    <item>
+        <title> caja de herramientas </title>  
+        <note> vienen incluidas pegatinas </note>
+        <quantity> 1 </quantity>
+        <price> 45.32 </price>
+    </item>
+</shiporder>

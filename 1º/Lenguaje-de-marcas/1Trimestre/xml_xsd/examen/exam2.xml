@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE canales>
+
+<canales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="exam2.xsd">
+    <canal numero="1">
+        <programacion>
+            <dia tipo="lunes">
+                <titulo> friends </titulo>
+                <descripcion> va sobre amigos </descripcion>
+                <clasificacion_edad> 7 </clasificacion_edad>
+                <subtitulos hay="0"></subtitulos>
+                <idioma>
+                    <seleccion> español </seleccion>
+                </idioma>
+            </dia>
+            <dia tipo="martes">
+                <titulo> the simpsons </titulo>
+                <descripcion> va sobre una familia </descripcion>
+                <clasificacion_edad> 7 </clasificacion_edad>
+                <subtitulos hay="1"></subtitulos>
+                <idioma>
+                    <seleccion> ingles </seleccion>
+                </idioma>
+            </dia>
+            <anuncios>
+                <anuncio>
+                    <marca> coca-cola </marca>
+                    <durancion> 20 segundos </durancion>
+                    <horario> 1 </horario>
+                </anuncio>
+            </anuncios>
+            <anuncios>
+                <anuncio>
+                    <marca> audi </marca>
+                    <durancion> 30 segundos </durancion>
+                    <horario> 2 </horario>
+                </anuncio>
+            </anuncios>
+            <anuncios>
+                <anuncio>
+                    <marca> warner bros </marca>
+                    <durancion> 14 segundos </durancion>
+                    <horario> 3 </horario>
+                </anuncio>
+            </anuncios>
+        </programacion>
+    </canal>
+    
+</canales>

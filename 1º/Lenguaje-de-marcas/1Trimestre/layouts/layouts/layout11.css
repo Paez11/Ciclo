@@ -1,0 +1,147 @@
+.cabecera{
+    color: white;
+    background-color: black;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+#titulo{
+    font-family: ABeeZee, sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 1);
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 8.7px;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+.medio{
+    justify-content: center;
+    text-align: center;
+    background-color: #d6dac7;
+    margin: auto;
+}
+table{
+    margin: auto;
+    margin-top: 40px;
+}
+select{
+    padding: 5px;
+    padding-right: 205px;
+}
+h1{
+    font-family: ABeeZee, sans-serif;
+    font-size: 85px;
+    font-weight:bold;
+    padding-top: 8px;
+    margin-bottom: 5px;
+    margin: auto;
+}
+#sub{
+    font-size: smaller;
+    font-weight: bold;
+}
+#text{
+    font-family: ABeeZee, sans-serif;
+    font-size:medium;
+    font-weight: bold;
+    text-transform: none;
+    font-style: oblique;
+    padding-top: 12px;
+    padding-left: 2px;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+form{
+    background-color: white;
+    font-size: small;
+    text-align: left;
+    padding: 15px;
+    border-radius: 2px;
+}
+h2{
+    font-family: ABeeZee, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+input{
+    margin-bottom: 7px;
+    padding: 4px;
+    margin-top: 2px;
+    padding-right: 230px;
+}
+#grande{
+    padding-bottom: 35px;
+}
+select{
+    margin-bottom: 7px;
+}
+#enviar{
+    color: white;
+    background-color: purple;
+    text-align: center;
+    padding-left: 182px;
+    padding-right: 182px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+}
+.container {
+    display: flex;
+}
+
+.container__column {
+    /* Space between columns */
+    margin: 0 10px;
+
+    /* Layout each column */
+    display: flex;
+    flex-direction: column;
+}
+
+.container__content {
+    /* Take available height */
+    flex: 0;
+    font-size: small;
+    font-style: oblique;
+}
+
+.avatar {
+    /* Rounded border */
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+.avatar__image {
+    /* Rounded border */
+    border-radius: 50%;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}
+#final{
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+}
+#datos{
+    font-weight: bold;
+    font-size: small;
+    margin-bottom: -8px;
+    font-style: normal;
+}
+#separador{
+    margin-top: -6px;
+    margin-bottom: -6px;
+}

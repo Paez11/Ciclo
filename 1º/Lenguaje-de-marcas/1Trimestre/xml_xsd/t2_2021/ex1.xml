@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE torneo>
+
+<torneo>
+    <nombre> la copa del fin </nombre>
+    <fecha_inicio> 12/12/2121 </fecha_inicio>
+    <fecha_final> 13/01/2122 </fecha_final>
+    <partidos>
+        <partido numero="1">
+            <fecha> 
+                <dia> 12/12/2121 </dia> 
+                <hora> 12:00-12:45 </hora>
+            </fecha>
+            <datos_personales>
+                <persona>
+                    <edad> 23 </edad>
+                    <nombre> Don Manuel de las Montañas </nombre>
+                    <DNI> 23653476K </DNI>
+                </persona>
+                <persona>
+                    <edad> 24 </edad>
+                    <nombre> Francisco Esquiva Vicios </nombre>
+                    <DNI> 12763498F </DNI>  
+                </persona>
+            </datos_personales>
+            <resultado>
+                <set tipo="primero"> 6-3 </set>
+                <set tipo="segundo"> 5-7 </set>
+                <set tipo="tercero"> 6-2 </set>
+            </resultado>
+        </partido>
+        <partido numero="2">
+            <fecha> 
+                <dia> 12/12/2121 </dia> 
+                <hora> 12:00-12:45 </hora>
+            </fecha>
+            <datos_personales>
+                <persona>
+                    <edad> 23 </edad>
+                    <nombre> Don Manuel de las Montañas </nombre>
+                    <DNI> 23653476K </DNI>
+                </persona>
+                <persona>
+                    <edad> 24 </edad>
+                    <nombre> Francisco Esquiva Vicios </nombre>
+                    <DNI> 12763498F </DNI>  
+                </persona>
+            </datos_personales>
+            <resultado>
+                <set tipo="primero"> 6-3 </set>
+                <set tipo="segundo"> 5-7 </set>
+                <set tipo="tercero"> 6-2 </set>
+            </resultado>
+        </partido>
+        <partido numero="3">
+            <fecha> 
+                <dia> 12/12/2121 </dia> 
+                <hora> 12:00-12:45 </hora>
+            </fecha>
+            <datos_personales>
+                <persona>
+                    <edad> 23 </edad>
+                    <nombre> Don Manuel de las Montañas </nombre>
+                    <DNI> 23653476K </DNI>
+                </persona>
+                <persona>
+                    <edad> 24 </edad>
+                    <nombre> Francisco Esquiva Vicios </nombre>
+                    <DNI> 12763498F </DNI>  
+                </persona>
+            </datos_personales>
+            <resultado>
+                <set tipo="primero"> 6-3 </set>
+                <set tipo="segundo"> 5-7 </set>
+                <set tipo="tercero"> 6-2 </set>
+            </resultado>
+        </partido>
+        <partido numero="4">
+            <fecha> 
+                <dia> 12/12/2121 </dia> 
+                <hora> 12:00-12:45 </hora>
+            </fecha>
+            <datos_personales>
+                <persona>
+                    <edad> 23 </edad>
+                    <nombre> Don Manuel de las Montañas </nombre>
+                    <DNI> 23653476K </DNI>
+                </persona>
+                <persona>
+                    <edad> 24 </edad>
+                    <nombre> Francisco Esquiva Vicios </nombre>
+                    <DNI> 12763498F </DNI>  
+                </persona>
+            </datos_personales>
+            <resultado>
+                <set tipo="primero"> 6-3 </set>
+                <set tipo="segundo"> 5-7 </set>
+                <set tipo="tercero"> 6-2 </set>
+            </resultado>
+        </partido>
+        <partido numero="5">
+            <fecha> 
+                <dia> 12/12/2121 </dia> 
+                <hora> 12:00-12:45 </hora>
+            </fecha>
+            <datos_personales>
+                <persona>
+                    <edad> 23 </edad>
+                    <nombre> Don Manuel de las Montañas </nombre>
+                    <DNI> 23653476K </DNI>
+                </persona>
+                <persona>
+                    <edad> 24 </edad>
+                    <nombre> Francisco Esquiva Vicios </nombre>
+                    <DNI> 12763498F </DNI>  
+                </persona>
+            </datos_personales>
+            <resultado>
+                <set tipo="primero"> 6-3 </set>
+                <set tipo="segundo"> 5-7 </set>
+                <set tipo="tercero"> 6-2 </set>
+            </resultado>
+        </partido>
+        <partido numero="6">
+            <fecha> 
+                <dia> 12/12/2121 </dia> 
+                <hora> 12:00-12:45 </hora>
+            </fecha>
+            <datos_personales>
+                <persona>
+                    <edad> 23 </edad>
+                    <nombre> Don Manuel de las Montañas </nombre>
+                    <DNI> 23653476K </DNI>
+                </persona>
+                <persona>
+                    <edad> 24 </edad>
+                    <nombre> Francisco Esquiva Vicios </nombre>
+                    <DNI> 12763498F </DNI>  
+                </persona>
+            </datos_personales>
+            <resultado>
+                <set tipo="primero"> 6-3 </set>
+                <set tipo="segundo"> 5-7 </set>
+                <set tipo="tercero"> 6-2 </set>
+            </resultado>
+        </partido>
+        <partido numero="7">
+            <fecha> 
+                <dia> 12/12/2121 </dia> 
+                <hora> 12:00-12:45 </hora>
+            </fecha>
+            <datos_personales>
+                <persona>
+                    <edad> 23 </edad>
+                    <nombre> Don Manuel de las Montañas </nombre>
+                    <DNI> 23653476K </DNI>
+                </persona>
+                <persona>
+                    <edad> 24 </edad>
+                    <nombre> Francisco Esquiva Vicios </nombre>
+                    <DNI> 12763498F </DNI>  
+                </persona>
+            </datos_personales>
+            <resultado>
+                <set tipo="primero"> 6-3 </set>
+                <set tipo="segundo"> 5-7 </set>
+                <set tipo="tercero"> 6-2 </set>
+            </resultado>
+        </partido>
+        <partido numero="8">
+            <fecha> 
+                <dia> 12/12/2121 </dia> 
+                <hora> 12:00-12:45 </hora>
+            </fecha>
+            <datos_personales>
+                <persona>
+                    <edad> 23 </edad>
+                    <nombre> Don Manuel de las Montañas </nombre>
+                    <DNI> 23653476K </DNI>
+                </persona>
+                <persona>
+                    <edad> 24 </edad>
+                    <nombre> Francisco Esquiva Vicios </nombre>
+                    <DNI> 12763498F </DNI>  
+                </persona>
+            </datos_personales>
+            <resultado>
+                <set tipo="primero"> 6-3 </set>
+                <set tipo="segundo"> 5-7 </set>
+                <set tipo="tercero"> 6-2 </set>
+            </resultado>
+        </partido>
+        <partido numero="9">
+            <fecha> 
+                <dia> 12/12/2121 </dia> 
+                <hora> 12:00-12:45 </hora>
+            </fecha>
+            <datos_personales>
+                <persona>
+                    <edad> 23 </edad>
+                    <nombre> Don Manuel de las Montañas </nombre>
+                    <DNI> 23653476K </DNI>
+                </persona>
+                <persona>
+                    <edad> 24 </edad>
+                    <nombre> Francisco Esquiva Vicios </nombre>
+                    <DNI> 12763498F </DNI>  
+                </persona>
+            </datos_personales>
+            <resultado>
+                <set tipo="primero"> 6-3 </set>
+                <set tipo="segundo"> 5-7 </set>
+                <set tipo="tercero"> 6-2 </set>
+            </resultado>
+        </partido>
+        <partido numero="10">
+            <fecha> 
+                <dia> 12/12/2121 </dia> 
+                <hora> 12:00-12:45 </hora>
+            </fecha>
+            <datos_personales>
+                <persona>
+                    <edad> 23 </edad>
+                    <nombre> Don Manuel de las Montañas </nombre>
+                    <DNI> 23653476K </DNI>
+                </persona>
+                <persona>
+                    <edad> 24 </edad>
+                    <nombre> Francisco Esquiva Vicios </nombre>
+                    <DNI> 12763498F </DNI>  
+                </persona>
+            </datos_personales>
+            <resultado>
+                <set tipo="primero"> 6-3 </set>
+                <set tipo="segundo"> 5-7 </set>
+                <set tipo="tercero"> 6-2 </set>
+            </resultado>
+        </partido>
+    </partidos>
+</torneo>

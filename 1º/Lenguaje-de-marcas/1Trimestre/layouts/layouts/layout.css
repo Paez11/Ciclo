@@ -1,0 +1,129 @@
+h1::after{
+    content: '';
+    width: 1006px;
+    height: 852px;
+    background-image: radial-gradient(ellipse at center, rgb(255 255 255) 0%,rgb(255 255 255 / 0%) 70%,rgb(255 255 255 / 23%) 100%);
+    display: block;
+    border-radius: 60%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -499px;
+}
+
+
+#text{
+    font-family: BioRhyme, serif;
+    font-size: 140px;
+    font-weight: 500;
+    color: #707070;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: -1px;
+    margin-top: unset;
+    margin-bottom: initial;
+}
+.navegador{
+    background-color: white;
+    box-shadow: rgb(133, 133, 133) 1px 1px 3px;
+}
+
+.caja{
+    background-color: white;
+    padding: 15px;
+    margin: 30px;
+    box-shadow: rgb(133, 133, 133) 1px 1px 3px;
+
+}
+
+#caja1{
+    background-color: white;
+    padding: 8px;
+    box-shadow: rgb(133, 133, 133) 1px 1px 3px;
+}
+div>::first-line{
+    text-align: center;
+}
+
+.buscador {
+    display: flex;
+    /* If you want to place the icon before the text input */
+    flex-direction: row-reverse;
+
+    /* Border */
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: white;
+    padding: inherit;
+}
+td{
+    padding: 12px;
+    padding-right: 60px;
+    padding-left: 40px;
+    font-size:large;
+}
+
+
+a:link{text-decoration: none;}
+a:link{color: black;}
+
+.buscador__input {
+    border-color: transparent;
+    /* Take available width */
+    flex: 1;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+.container__column {
+    flex: 0;
+    /* Space between columns */
+    margin: 0 6px;
+
+    /* Layout each column */
+    display: flex;
+    flex-direction: column;
+}
+
+.container__content {
+    /* Take available height */
+    flex: 1;
+    padding-top: 20px;
+    text-align:justify;
+    text-indent: 50px;
+    margin: 8px;
+}
+
+p:last-of-type{
+    text-align: right;
+}
+
+img{
+    padding-bottom: 20px;
+}
+img:first-of-type{
+    padding-bottom: 0%;
+}
+
+
+
+.fondo {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    /* Take full size */
+    height: 100vh;
+    width: 100%;
+
+    /* Background */
+    background: url('/assets/full-background.jpeg') center center / cover no-repeat;
+    background-color: #ADA6A0;
+    margin: auto;
+    padding-bottom: 200px;
+}

@@ -1,0 +1,103 @@
+.primera{
+    background-image: url("https://ak.picdn.net/shutterstock/videos/7418779/thumb/3.jpg?ip=x480");
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    font-family: ABeeZee, sans-serif;
+    box-shadow: grey 2px 0px 3px;
+}
+h1{
+    font-weight: lighter;
+    text-align: center;
+}
+img{
+    padding-left: 60px;
+}
+
+.segundo{
+    color: white;
+}
+th{
+    padding-bottom: 50px;
+    padding-top: 30px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.boton{
+    background-color: #EDEBEB;
+    border-radius: 2px;
+    color: black;
+    padding: 10px;
+    padding-right: 10px;
+    margin-right: 25px;
+    text-align: center;
+    padding-left: 10px;
+}
+.ult{
+    padding-bottom: 80px;
+    padding-left: 700px;
+}
+
+.container {
+    display: flex;
+    text-align: left;
+    margin: auto;
+    margin-top: 1px;
+    justify-content: center;
+    font-family: Actor, sans-serif;
+    color: grey;
+    box-shadow: grey 2px 1px 3px;
+}
+
+.container__column {
+    /* Space between columns */
+    margin: 0 10px;
+
+    /* Layout each column */
+    flex-direction: column;
+}
+
+.container__content {
+    /* Take available height */
+    flex: 1;
+}
+h2{
+    text-align: center;
+    font-size: x-large;
+    font-weight: lighter;
+}
+.rojo{
+    background-color: #E31718;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    padding: 50px;
+    font-family: Are You Serius;
+    margin-top: 30px;
+}
+
+.button {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Spacing */
+    padding: 8px;
+}
+
+.button__arrow--right {
+    /* Edges */
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    transform: translateX(-25%) rotate(45deg);
+}
+
+.button__arrow--left {
+    /* Edges */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    transform: translateX(25%) rotate(45deg);
+}

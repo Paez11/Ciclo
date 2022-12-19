@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE medios_transportes>
+<medios_transportes>
+    <transportes>
+        <transporte nombre="tren">
+            <tipo> AVE </tipo>
+            <velocidad>  
+                <max> 500 </max>
+                <varia> si </varia>
+            </velocidad>
+            <CO2> 0 </CO2>
+            <medio> vias </medio>
+            <pasajeros>
+                <cantidad> 500 </cantidad>
+                <varia> si </varia>
+            </pasajeros>
+        </transporte>
+        <transporte nombre="coche">
+            <tipo> camion </tipo>
+            <velocidad_max> 80 </velocidad_max>
+            <CO2> 70 </CO2>
+            <medio> carretera </medio>
+            <pasajeros> 2 </pasajeros>
+        </transporte>
+        <transporte nombre="barco">
+            <tipo> velero </tipo>
+            <velocidad_max> 160 </velocidad_max>
+            <CO2> 10 </CO2>
+            <medio> agua </medio>
+            <pasajeros> 15 </pasajeros>
+        </transporte>
+    </transportes>
+    <conductores>
+        <conductor maneja="tren">
+            <dni> 11223344L </dni>
+            <telefono> 688723422 </telefono>
+            <matricula> 2134FGH </matricula>
+        </conductor>
+        <conductor maneja="coche">
+            <dni> 11223344F </dni>
+            <telefono> 688233422 </telefono>
+            <matricula> 2134HFG </matricula>
+        </conductor>
+        <conductor maneja="barco">
+            <dni> 11223344M </dni>
+            <telefono> 688453422 </telefono>
+            <matricula> 2134DSE </matricula>
+        </conductor>
+    </conductores>
+</medios_transportes>
