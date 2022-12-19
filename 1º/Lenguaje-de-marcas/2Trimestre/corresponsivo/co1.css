@@ -1,0 +1,306 @@
+body{
+    width: 100%;
+    margin: 0%;
+}
+.todo{
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "cabecera"
+    "cuerpo"
+    "pie";
+}
+.cabecera{
+    grid-area: cabecera;
+    background-color: #012930;
+    color: white;
+    box-shadow: 0em 0.5em 3em black;
+}
+.menu{
+    justify-content: center;
+}
+#noticia{
+    font-size: x-large;
+}
+#titNoticia{
+    font-family: sans-serif;
+    margin: 3%;
+}
+h2{
+    margin: 0%;
+    margin-bottom: 1%;
+}
+
+#titulo{
+    font-family: ABeeZee, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 0%;
+}
+
+#navegador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#opcion{
+    padding: 2%;
+    font-family: ABeeZee, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(16, 206, 216);
+    text-transform: none;
+}
+.seleccionado{
+   
+    color: rgb(11, 222, 250);
+    border-radius: 6%;
+    background: linear-gradient(to bottom, rgba(54, 255, 255, 0.596), rgba(17, 129, 123, 0.575));
+}
+#informacion{
+    margin: 3%;
+    color: rgb(16, 206, 216);
+}
+#imagen{
+    box-shadow: 0px 0px;
+    width: 100%;
+}
+.cuerpo{
+    grid-area: cuerpo;
+    padding: 0 10px;
+}
+.posicion{
+    text-align-last: center;
+    position: relative;
+    overflow: hidden;
+    height: 3%;
+}
+.fila1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+h3{
+    font-family: ABeeZee, sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    color: rgba(61, 61, 61, 1);
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 0em;
+    letter-spacing: -2px;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+.texto{
+    color: rgb(99, 99, 99);
+    font-size: x-large;
+}
+#leer{
+    text-align-last: end;
+    margin: 2%;
+}
+hr{
+    margin: 5%;
+    border-radius: 80%;
+}
+#separador1{
+    border-color: rgb(110, 216, 251);
+}
+
+#separador2{
+    border-color: grey;
+}
+button{
+    border-radius: 25px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.876), rgba(180, 180, 180, 0.274));
+    padding: 0.6em;
+    border-width: thin;
+}
+.fila2{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    box-shadow: 0px 2px 9px;
+    margin-bottom: 15px;
+}
+.fila3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#logo{
+    flex: 1 0 17%;
+}
+#pajaro{
+    width: 100%;
+    box-shadow: 0px 0px;
+}
+
+.pie{
+    grid-area: pie;
+    background-color: #012930;
+    color: rgb(16, 206, 216);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#subnavegador{
+    display: flex;
+    flex-direction: row;
+}
+#opcion1{
+    padding: 2%;
+    font-family: ABeeZee, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(0, 242, 255, 1);
+    text-transform: none;
+}
+#tweets{
+    border-radius: 5%;
+    color: black;
+    padding: 3%;
+}
+#buttweets{
+    flex:none;
+}
+
+@media only screen and (min-width: 768px) {
+
+    h1{
+        font-size: 80px;
+    }
+
+    #opcion{
+        font-size: 30px;
+    }
+    #opcion1{
+        font-size: 30px;
+    }
+
+    #logo{
+        flex: 0 0 20%;
+    }
+    #pajaro{
+        width: 60%;
+    }
+
+    .fila3{
+        justify-content: space-between;
+    }
+    #buttweets{
+        width: 150px
+    }
+    #tweets{
+        padding: 20%;
+    }
+}
+
+@media only screen and (min-width: 1008px){
+
+    .Menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+
+    #opcion{
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    #navegador{
+        align-items: center;
+    }
+    hr{
+        margin-top: 4%
+    }
+
+    .sugerencias{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 5%;
+    }
+    #noticia{
+        font-size: medium;
+        flex: 1;
+    }
+    #titNoticia{
+        font-size: xx-large;
+    }
+    #bienvenida{
+        margin-top: 1px;
+    }
+    .posicion{
+        height: 4%;
+        position: relative;
+        padding-bottom: 1%;
+    }
+    #svg{
+        position: absolute;
+        right: 160px;
+    }
+    
+    .fila1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .texto{
+        font-size: medium;
+        margin: 5%;
+    }
+    h3{
+        font-size: 2.5em;
+        margin: 5%;
+        margin-bottom: 10%;
+    }
+
+    .fila2{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-left: 2%;
+    }
+
+    .fila3{
+        justify-content: center;
+        padding-bottom: 6%;
+    }
+    #logo{
+        flex: 0 0 13%;
+    }
+    #buttweets{
+        width: 131px;
+        margin-left: 5%;
+    }
+    #tweets{
+        padding: 10%;
+        padding-inline: 20%;
+    }
+
+    .pie{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #opcion1{
+        font-size: medium;
+    }
+}
