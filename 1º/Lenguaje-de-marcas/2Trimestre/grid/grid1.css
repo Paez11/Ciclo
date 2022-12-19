@@ -1,0 +1,115 @@
+.todo{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 100%;
+    grid-template-areas:
+    "cabecera cabecera cabecera"
+    "navegador navegador navegador"
+    "izquierda contenedor derecha"
+    "pie pie pie"
+}
+.cabecera{
+grid-area: cabecera;
+background-color: black;
+color: white;
+}
+#titulo{
+    margin-left: 10px;
+}
+#registro{
+    text-align: right;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+.navegador{
+grid-area: navegador;
+display: flex;
+flex-direction: row;
+background-color: #697F55;
+color: white;
+text-align: left;
+box-shadow: 0px 3px 6px grey;
+}
+#opcion{
+    margin: 10px;
+}
+.izquierda{
+grid-area: izquierda;
+margin: 20px;
+justify-self: center;
+}
+.derecha{
+    grid-area: derecha;
+    margin: 20px;
+    justify-self: center;
+}
+
+#cuadro{
+    background-color: #DDDDDD;
+    border: solid 1px grey;
+    border-radius: 3px;
+    padding: 20px;
+}
+.calendario{
+    padding-bottom: 150px;
+}
+.contenedor{
+grid-area: contenedor;
+margin-top: 30px;
+}
+
+#img{
+    text-align: -webkit-center;
+}
+#categorias{
+    background-color: #DDDDDD;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 5px grey;
+}
+
+.contenedor2{
+grid-area: contenedor2;
+position: relative;
+background-color: #DDDDDD;
+border: solid 1px grey;
+border-radius: 3px;
+color: green;
+margin-bottom: 60px;
+}
+.pie{
+grid-area: pie;
+text-align: center;
+background-color: black;
+color: white;
+}
+
+h4{
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+span{
+    color: black;
+}
+li{
+    margin-bottom: 8px;
+    list-style-type: none;
+}
+
+#arbol{
+    vertical-align: bottom;
+    width: 100px;
+    right: 9px;
+    bottom: 9px;
+    position: absolute;
+}
+
+p{
+    margin: 0%;
+}
+
+a{
+    color: blue;
+}

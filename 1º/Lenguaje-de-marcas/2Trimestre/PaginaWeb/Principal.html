@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pagina principal</title>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="Principal.css" rel="stylesheet">
+        <link rel="icon" href="cine.png">
+        <script src="https://kit.fontawesome.com/a26d230d0b.js" crossorigin="anonymous"></script>
+      </head>
+    <body>
+        <div class="todo">
+            <div class="cabecera">
+              <header class="p-3 bg-dark text-white">
+                <div class="container">
+                  <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+                    <div class="cab">
+                      <div class="dropdown listaChica">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a href="Principal.html" class="nav-link px-2 text-secondary">Home</a></li>
+                          <li><a href="Segunda.html" class="nav-link px-2">Reviews</a></li>
+                          <li><a href="Tercera.html" class="nav-link px-2">Trailers</a></li>
+                          <li><a href="#" class="nav-link px-2">Discusiones</a></li>
+                          <li><a href="#" class="nav-link px-2">Proximamente</a></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <a class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                      <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><img id="logo" src="cine.png" alt="logo"></svg>
+                    </a>
+                    
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 listaGrande">
+                      <li><a href="Principal.html" class="nav-link px-2 text-secondary">Home</a></li>
+                      <li><a href="Segunda.html" class="nav-link px-2 text-white">Reviews</a></li>
+                      <li><a href="Tercera.html" class="nav-link px-2 text-white">Trailers</a></li>
+                      <li><a href="#" class="nav-link px-2 text-white">Discusiones</a></li>
+                      <li><a href="#" class="nav-link px-2 text-white">Proximamente</a></li>
+                    </ul>
+
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                      <input type="search" class="form-control form-control-dark" placeholder="Buscar..." aria-label="Search">
+                    </form>
+            
+                    <div class="text-end">
+                      <button type="button" class="btn btn-outline-light me-2">Entrar</button>
+                      <button type="button" class="btn btn-warning bc">Registrarse</button>
+                    </div>
+                  </div>
+                </div>
+              </header>
+            </div>
+            <div class="cuerpo">
+              <div id="carouselExampleCaptions" class="carousel slide carou" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="batman.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="malnazidos.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Moonfall.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="cyrano.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Fourd slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Uncharted.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Five slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <hr class="divisor">
+              <div class="new">
+                <h2>
+                  Nuevas y proximas peliculas
+                </h2>
+                <div id="carouselExampleControls" class="carousel slide carou1" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img slot="image"  src="https://resizing.flixster.com/VaVQydiq4g4GMUcOS6BmznojCW4=/180x257/v2/https://resizing.flixster.com/z7Qex7L7ZUT1YdAwuJ49BEulml4=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzc1OGFlMDI0LTE1ZTEtNDE4ZS04Y2RmLWNjYzcyOWQyZmMyNi5qcGc="  style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image"  src="https://resizing.flixster.com/GyUyUAeIvpCyWsmVHnDxBfklMsI=/180x257/v2/https://resizing.flixster.com/RqaXyhMK5ardZIZqR3gOQhcXRow=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzkyNjlmYjNjLWFlY2ItNGJjNi1iNDk2LTY4NGJiMDBjZGUyMS5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image"  src="https://resizing.flixster.com/aa8ZtlXtqvO-V03ml8TSMzAnU9k=/180x257/v2/https://resizing.flixster.com/hwvY1YI3nRJtDcBhyCfvMmdBrVk=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzI5Y2VlMDIwLTJhMTgtNDAwOC05YTZkLTFkNWI1ZTQ2MGI4OC5qcGc="  style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image"  src="https://resizing.flixster.com/LtJSLl7a6zMpcBia68BlhaPJo0U=/180x257/v2/https://resizing.flixster.com/IPOZgNrHNvzmlgZzhH8-zK3rpMI=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2RmY2I5ZWYwLWY1MTUtNDZkMC05ODJhLTU2NzNjMDdmMWNkZC5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image"  src="https://resizing.flixster.com/CfLNXaMUiy9KHJs3xGTXkWmLGwM=/180x257/v2/https://resizing.flixster.com/JAuD8cqDp2hynQTSu-Wti0KRMFc=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzk0NjZkN2UzLWY2MzMtNGYxYy1iMmQ3LWNiNTNlODAxMjhiMS5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                    </div>
+                    <div class="carousel-item">
+                      <img slot="image" src="https://resizing.flixster.com/qS35QkvhyGIa4jpfeEd8FEyjvfg=/180x257/v2/https://resizing.flixster.com/CO1ICuTrpFQeGbPC9rxyH46mxvM=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzA3ZjU2MGU1LWMxODItNDlkMC1hYzJhLTY2YzMwOGZkMDhiZi5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image" src="https://resizing.flixster.com/f1bRc4nldBODtvhCwIFpEvlZwIs=/180x257/v2/https://resizing.flixster.com/RgCntn2phHyUQHpdwIGVwRra_Ts=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzc1MTE0ZTdiLTg5MzItNDhhZC1iOTY3LTA3N2U2NWJhM2I0Yy5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image"  src="https://resizing.flixster.com/aAqGSRAbtNdvmCZiOAmD7HAEjpY=/180x257/v2/https://resizing.flixster.com/s1V-vHPMVvDmhQsDcoprzMiXZFQ=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2ExNDVlZGU0LTJkMTMtNDVkZS1iYTkyLTEzNzllNDI2NWUzNi5qcGc="  style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image" src="https://resizing.flixster.com/A-NV9944VCbIoDPXRRRzW4u_49s=/180x257/v2/https://flxt.tmsimg.com/assets/p21534100_p_v13_aa.jpg"  style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image" src="https://resizing.flixster.com/qS35QkvhyGIa4jpfeEd8FEyjvfg=/180x257/v2/https://resizing.flixster.com/CO1ICuTrpFQeGbPC9rxyH46mxvM=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzA3ZjU2MGU1LWMxODItNDlkMC1hYzJhLTY2YzMwOGZkMDhiZi5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                    </div>
+                    <div class="carousel-item">
+                      <img slot="image"  src="https://resizing.flixster.com/aAqGSRAbtNdvmCZiOAmD7HAEjpY=/180x257/v2/https://resizing.flixster.com/s1V-vHPMVvDmhQsDcoprzMiXZFQ=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2ExNDVlZGU0LTJkMTMtNDVkZS1iYTkyLTEzNzllNDI2NWUzNi5qcGc="  style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image" src="https://resizing.flixster.com/A-NV9944VCbIoDPXRRRzW4u_49s=/180x257/v2/https://flxt.tmsimg.com/assets/p21534100_p_v13_aa.jpg"  style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image" src="https://resizing.flixster.com/f7aSxhlN3VuPXsa96tF_ZB4wrkM=/180x257/v2/https://resizing.flixster.com/d9o2XhMYbtpAgd1L-wZwdr0TgEE=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2ExMWM1MGJlLTQ5MTUtNDY5ZC05ODVlLTJlNTc3MGUwN2NjZS5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image" src="https://resizing.flixster.com/O4LHhuh7DlOxHo0fXehuPbNc1zI=/180x257/v2/https://resizing.flixster.com/RF3wxusvV3F8qbyYCHDejUTvLeQ=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2E0MWFiMmQzLWI1YjAtNDFlMC04ZTlkLWYyNDllYzE2OGY2MS5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image" src="https://resizing.flixster.com/uGcUPk3wOvOABMKv8bo_EqPosmU=/180x257/v2/https://resizing.flixster.com/f5uHu9r5t-s01eKiEfOhDSb2MeQ=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzc5NzNhMzhiLTVkMWItNDU1Zi1hNjRmLWEzNWQ4ZDY2OTAxOS5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                    </div>
+                    <div class="carousel-item">
+                      <img slot="image"  src="https://resizing.flixster.com/hf4WAuuCC72XALmkbOhtXWCccP0=/180x257/v2/https://resizing.flixster.com/gDebKgdfM4pmb1cluhRQoPTS3Ng=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2U4NDNkMDUyLTJkNDctNDBlOC04ZDQxLTE1ZDY5ZGRhNmJmYy5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image"  src="https://resizing.flixster.com/0v_x0hJx3hn64aFFGPLeshA9Jqw=/180x257/v2/https://resizing.flixster.com/i27StXtf7xMOffXgB1b7fKpxx_0=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzhkMTQ4M2RiLTY5NzYtNGVkNS04YjUwLTIyZjA0N2ZjY2Y3MS5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image" src="https://resizing.flixster.com/lWGL2LeHRplV4kvza-lop_LrDR8=/180x257/v2/https://resizing.flixster.com/BWdH7H6Y8g-u6hd1_7X9btTUc6w=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzYwYzlmOGI5LWViNmYtNDkwMi1iYzE0LTVjZjVjNDViOTM3OC5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image"  src="https://resizing.flixster.com/Dy7xRQvycVhbWPD7RK3pqR9Rb9M=/180x257/v2/https://resizing.flixster.com/FFhTD4AJM04xWkrUzwA1D-_QZMo=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzdjNTNmZDAzLTdhZTAtNDBkOC04MjA2LTYyMTFhN2NjYTM5ZC5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image" src="https://resizing.flixster.com/0l3sizyzGuSB3bRYCNf6GzQWHXo=/180x257/v2/https://resizing.flixster.com/z706V3mFxnfXS0F02ktwKSWhVwc=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzg3OWQyOGE0LThmODItNDczNS04MDhjLThiZjQxYzM0YzYwZS5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                    </div>
+                    <div class="carousel-item">
+                      <img slot="image"  src="https://resizing.flixster.com/oXgdza8j0A34ZV45u4OKt-iJiOU=/180x257/v2/https://resizing.flixster.com/JwuychBCX6snS8XAE7_HcaZSHG4=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzRhOTE2MDQzLWM0NmItNDYyNC05NWVmLTlhMmYyMjNmYmZmMi5wbmc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image"  src="https://resizing.flixster.com/2WNq_aXyZTFepje8htd-I7zmCoM=/180x257/v2/https://resizing.flixster.com/S9ye1E096kl3yhhyo9ljSW7Ucvw=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzAzYjIxNjVhLTRhMTEtNDk5Ni1hZWRjLWQxOWZmZGUxYjMzNS5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image"  src="https://resizing.flixster.com/aAqGSRAbtNdvmCZiOAmD7HAEjpY=/180x257/v2/https://resizing.flixster.com/s1V-vHPMVvDmhQsDcoprzMiXZFQ=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2ExNDVlZGU0LTJkMTMtNDVkZS1iYTkyLTEzNzllNDI2NWUzNi5qcGc="  style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image" src="https://resizing.flixster.com/A-NV9944VCbIoDPXRRRzW4u_49s=/180x257/v2/https://flxt.tmsimg.com/assets/p21534100_p_v13_aa.jpg"  style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image" src="https://resizing.flixster.com/f7aSxhlN3VuPXsa96tF_ZB4wrkM=/180x257/v2/https://resizing.flixster.com/d9o2XhMYbtpAgd1L-wZwdr0TgEE=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2ExMWM1MGJlLTQ5MTUtNDY5ZC05ODVlLTJlNTc3MGUwN2NjZS5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                    </div>
+                    <div class="carousel-item">
+                      <img slot="image" src="https://resizing.flixster.com/v4FmnQelbnahUjBRRO88yFRRyGQ=/180x257/v2/https://resizing.flixster.com/G-XQTRHxTqZ78KrUK0_ZIXT2wjc=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzUwYTgwMzQzLTUyZjMtNGEwNy05ZGQzLTVjNDU0MzI2NTM5Yi5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image" src="https://resizing.flixster.com/O4LHhuh7DlOxHo0fXehuPbNc1zI=/180x257/v2/https://resizing.flixster.com/RF3wxusvV3F8qbyYCHDejUTvLeQ=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2E0MWFiMmQzLWI1YjAtNDFlMC04ZTlkLWYyNDllYzE2OGY2MS5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image" src="https://resizing.flixster.com/uGcUPk3wOvOABMKv8bo_EqPosmU=/180x257/v2/https://resizing.flixster.com/f5uHu9r5t-s01eKiEfOhDSb2MeQ=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzc5NzNhMzhiLTVkMWItNDU1Zi1hNjRmLWEzNWQ4ZDY2OTAxOS5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                      <img slot="image" src="https://resizing.flixster.com/0l3sizyzGuSB3bRYCNf6GzQWHXo=/180x257/v2/https://resizing.flixster.com/z706V3mFxnfXS0F02ktwKSWhVwc=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzg3OWQyOGE0LThmODItNDczNS04MDhjLThiZjQxYzM0YzYwZS5qcGc="   style=" -webkit-animation: overlay-fade 1s 1; -o-animation: overlay-fade 1s 1; animation: overlay-fade 1s 1;">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="container c">
+                  <h2>Series del momento</h2>
+                  <br>           
+                  <table class="table table-dark table-hover">
+                    <thead>
+                      <tr>
+                        <th>Serie</th>
+                        <th></th>
+                        <th>Puntuacion</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Halo: S01</td>
+                        <td></td>
+                        <td>57%</td>
+                      </tr>
+                      <tr>
+                        <td>Bridgerton: S02</td>
+                        <td></td>
+                        <td>86%</td>
+                      </tr>
+                      <tr>
+                        <td>Pachinko: S01</td>
+                        <td></td>
+                        <td>100%</td>
+                      </tr>
+                      <tr>
+                        <td>Sanditon: S02</td>
+                        <td></td>
+                        <td>--%</td>
+                      </tr>
+                      <tr>
+                        <td>Starstruck: S02</td>
+                        <td></td>
+                        <td>100%</td>
+                      </tr>
+                      <tr>
+                        <td>Bloods</td>
+                        <td></td>
+                        <td>100%</td>
+                      </tr>
+                      <tr>
+                        <td>Call the Midwife: S11</td>
+                        <td></td>
+                        <td>--%</td>
+                      </tr>
+                      <tr>
+                        <td>Parallels: S01</td>
+                        <td></td>
+                        <td>--%</td>
+                      </tr>
+                      <tr>
+                        <td>Before We Die: S01</td>
+                        <td></td>
+                        <td>63%</td>
+                      </tr>
+                      <tr>
+                        <td>American Song Contest: S01</td>
+                        <td></td>
+                        <td>--%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="container mt-5">
+                <div class="d-flex justify-content-center row">
+                    <div class="col-md-8">
+                        <div class="d-flex flex-column comment-section">
+                            <div class="bg-white p-2">
+                                <div class="d-flex flex-row user-info"><img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40">
+                                    <div class="d-flex flex-column justify-content-start ml-2"><span class="d-block font-weight-bold name">Marry Andrews</span><span class="date text-black-50">Shared publicly - Jan 2020</span></div>
+                                </div>
+                                <div class="mt-2">
+                                    <p class="comment-text">
+                                      La pagina no carga bien
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="bg-white">
+                                <div class="d-flex flex-row fs-12">
+                                    <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><span class="ml-1">Like</span></div>
+                                    <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><span class="ml-1">Comment</span></div>
+                                    <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1">Share</span></div>
+                                </div>
+                            </div>
+                            <div class="bg-light p-2">
+                                <div class="d-flex flex-row align-items-start"><img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40"><textarea class="form-control ml-1 shadow-none textarea"></textarea></div>
+                                <div class="mt-2 text-right"><button class="btn btn-primary btn-sm shadow-none" type="button">Comentar</button><button class="btn btn-outline-primary btn-sm ml-1 shadow-none" type="button">Cancel</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="pie">
+                <!-- Footer -->
+              <footer class="bg-dark text-center text-white">
+                <!-- Grid container -->
+                <div class="container p-4">
+                  <!-- Section: Social media -->
+                  <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1 icono" href="https://es-es.facebook.com/" role="button"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1 icono" href="https://twitter.com/?lang=es" role="button"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-floating m-1 icono" href="https://www.google.es/" role="button"
+                      ><i class="fab fa-google"></i
+                    ></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1 icono" href="https://www.instagram.com/?hl=es" role="button"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </section>
+                  <!-- Section: Social media -->
+
+                  <!-- Section: Form -->
+                  <section class="">
+                    <form action="">
+                      <!--Grid row-->
+                      <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                          <p class="pt-2">
+                            <strong></strong>
+                          </p>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                          <!-- Email input -->
+                          <div class="form-outline form-white mb-4">
+                            <input type="email" id="form5Example21" class="form-control" />
+                            <label class="form-label" for="form5Example21"> Email </label>
+                          </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-auto">
+                          <!-- Submit button -->
+                          <button type="submit" class="btn btn-outline-light mb-4">
+                            Subcribirse
+                          </button>
+                        </div>
+                        <!--Grid column-->
+                      </div>
+                      <!--Grid row-->
+                    </form>
+                  </section>
+                  <!-- Section: Form -->
+
+                  <!-- Section: Text -->
+                  <section class="mb-4">
+                    <p>
+                      Esto es un pie de pagina para rellenar la pagina web ninguna de las cosas que salen aqui sirven para algo
+                      es solo para darle buena pinta a la pagina. weno vamos a juga.
+                    </p>
+                  </section>
+                  <!-- Section: Text -->
+                </div>
+                <!-- Grid container -->
+
+                  <!-- Copyright -->
+                  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © 2022 Copyright:
+                    <a class="text-white" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Mipaginitaweb.com</a>
+                  </div>
+                  <!-- Copyright -->
+                </footer>
+                <!-- Footer -->
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </body>
+    
+    <!--       _
+       .__(.)< (QUACK)
+        \___)   
+    ~~~~~~~~~~~~~~~~~~-->
+</html>
