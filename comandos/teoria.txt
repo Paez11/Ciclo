@@ -1,0 +1,182 @@
+Lenguaje SQL
+Lenguaje de consulta estructurado
+
+Esta basado en el modelo relacional que esta formado por tablas, y estas a su vez por columnas o campos.
+Es un lenguaje estandar de definición consultas manipulación y control de base de datos que se subdivide a su vez
+en tres (o cuatro según algunos autores) sublenguajes distintos. Que son:
+
+DDL o LDD (Data definition lenguaje)
+Este componente está formado por las instrucciones usadas para crear, borrar, modificar y renombrar los componentes de la 
+estructura de una base de datos, es decir, la parte estática. Permite crear tablas, vistas, relaciones, dominios, 
+indices, base de datos, etc. Además de modificarlas, borrarlas y renombrarlas. Está formado por las siguientes 
+instrucciones:
+-Create: TipoObjeto NombreObjeto [definición];
+-Drop: TipoObjeto NombreObjeto [opciones];
+-Alter TipoObjeto NombreObjeto Modficación;
+-Rename TipoObjeto NombreObjeto NombreNuevo;
+Todo los objetos en sql se crean con la instrucción create y dependiendo del tipo de objeto que se cree, tendrá más o menos
+posibilidades.
+-(instruccion) TipoObjeto [if exists] NombreDeObjeto [Opciones]
+
+DML O LMD (data manipulation languaje)
+Este sublenguaje lo forman los comandos usados para realizar consultas modificaciones borrados o inserciones sobre los 
+datos contenidos en las tablas, es la parte dinamica de la base de datos. Las instrucciones de este componente serán las 
+siguientes:
+
+-Select Campo/s|* form tabla/s [opciones];
+-Insert into tablas [(camp1,...)];
+		values('valor1',...);
+Delete from tabla [where conditions];
+Update tabla set campo=valor|expresion
+	[where condiciones];
+
+A este bloque pertenecen las instrucciones que permiten la manipulación del contenido de la base de datos, tenemos una
+instrucción para cada función que son:
+la inserción, consultas, borrado y modificación.
+Inserta nuevos registros en una tabla. Si coincide el valor al insertar de un campo clave o unique con alguno existente
+da error, a no ser que se ponga una clausura que lo evite.
+
+	-Insert [into] table|vista [(campo1,campo2,...)]
+		values (valor1, valor2,...) [,(valor1,valor2,...)...];
+		subconsulta;
+
+DCL o LCD (data control languaje)
+Está formado por los comandos usados por el administrador para dar y quitar privilegios realizar copias de seguridad, 
+gestión de usuarios, etc.
+Ejemplos:
+	-Grand privilegios on ambito to Usuario@host;
+	-Revoke Privilegios en ambito from Usuario@host;
+	-Show grants [for Usuarios@host];
+
+TCL o LCT (transition control languaje)
+Algunos autores incluyen este 4 sublenguaje que abarcaría las instrucciones que premiten realizar y 
+gestionar transacciones.
+Ejemplos:
+	-SavePoint PuntoDeRetorno;
+	-RollBack [to PuntoDeRetorno];
+	-commit;
+	-Begin;
+	-Status transaction;
+	-set autocommit = 0|1;
+
+Tipos de datos:
+	Numéricos:
+		-Tinyint [(n)][unsigned][zerofill];
+		-Smartint
+		-Medinmint
+		-int
+		-Begint
+
+Base de Datos
+
+
+
+Una vez creada una tabla podrá ser modificada su estructura sin tener que borrarla y volver a crear, y sobre todo
+sin tener que volver a introducir los valores que contenian. En concreto se puede hacer lo siguiente:
+-Añadir y borrar columnas
+-Se pueden modificar tipos de datos la precisión de una columna o su nombre
+-Añadir y borrar restricciones
+
+Alter table NombreTabla
+	add [(] Columnas/s tipo/s [after columna] [Restricciones] [Restricciones] [First] [)];
+	add primary key (campo/s);
+	add unique (campo);
+	add Foreign key (campo/s) reference tabla (campo/s)
+		[on delete....][on update....];
+	Drop 	Columna/s;
+	Drop primary key;
+	Drop foreign key (campo/s);
+	Modify [(] Campo/Existente [Nuevo]Tipo [Restricciones] [)];
+	Change NombreCampoViejo NombreCampoNuevo [Nuevo] tipo [Restricciones];
+
+Consultar los registros de una tabla o una vista (Select)
+
+Se puede consultar los datos de una tabla o vista, se puede consultar tablas enteras, columnas sueltas o combinaciones
+de estas.
+Existen muchisimas combinaciones de la orden select, asi que, las veremos poco a poco hasta completar todas las 
+posibilidades. A continuación todas las referencias que se hagan en una tabla se podrían hacer igualmente a una vista
+	
+	-Selección simple de una tabla.
+		Select campo1,campo2... from table;
+		Select * from table;
+Se han de especificar los campos que se desean que aparezcan en el listado debiendo además, indicar la tabla a la que
+pertenecen. Todas las tablas que se utilicen en el select deben aparecer tras el front pudiendose visualizar cualquier
+campo de las tablas especificadas.
+	-Selección simple de mas de una tabla
+		Select [Tabla1.]Campo1,[Tabla1.]Campo2,...[TablaN.]CampoN
+		from Tabla1,Tabla2,....TablaN;
+		Select [Tabla1.]*,[Tabla2.]Campo1,...
+		from Tabla1,Tabla2,....TablaN;
+
+Notas importantes:
+
+	1.-Los nombres de las tablas que aparecen previamente a los campos solo es obligatorio ponerlos cuando el nombre
+	del campo este repetido en dos o más tablas del from, de esta forma se distinguierian aquellos campos con 
+	igual nombre.
+
+	2.-Al hacer un select de más una tabla el resultado es la combinación de todos los registros de cada una de las
+	tablas implicadas, es decir, si hacemos un select sin condiciones de dos tablas con 3 y 5 registros respectivamente
+	nos saldrán las 15 combinaciones posibles o lo que es lo mismo el producto cartesiano. Si se hace con 3 tablas con 3
+	, 5 y 4 registros respectivamente saldrán las 60 combinaciones posibles, y así sucesivamente.
+
+Uso de alias de tablas para hacer más cortas las sentencias
+
+Se pueden usar los alias para hacer algo más cortas las sentencias. Al especificar una tabla en el front se le puede 
+añadir un alias a continuación que se puede utilizar en el resto de la sentencia. El alias solo existe en la sentencia
+fuera de ella no existe.
+Los alias también pueden ser utilizados en update y delete pero con unos formatos diferentes.
+
+Seleccion con condiciones
+
+Para poner una condición en el select se hace añadiendo tras las tablas del front la clausula where. Puede utilizarse
+el and, or, not, (),etc.
+
+MariaDB[soloMotor]> select ma.nombre, mo.nombre, mo.pais, from marca ma.modelo mo where ma.cif=mo.cifmarca and (mo.pais
+="Alemania" or mo.pais="Francia");
+
+Selección de tablas Relacionadas:
+
+Cuando hacemos consultas de varias tablas lo normal es que estén relacionadas. Como debemos saber esa relación 
+se hace por los campos que son clave ajena que han sido propagados desde otras tablas en las que normalmente son 
+campos clave. La fórmula por tanto para relacionar estas tablas es sencilla y consiste simplemente en igualar 
+estos dos campos, es decir, que el campo clave ajena de una tabla, sea igual al campo clave de la tabla desde la 
+que se propagó, de esta forma filtramos el producto cartesiano para que solo salga las correspondencias correctas 
+de una tabla respecto a la otra. A esa igualdad la vamos a llamar condición de enlace.
+Si hubiera más tablas en la consulta habría que enlazarlas todas.
+
+Notas importantes:
+
+- En casos de que haya claves ajenas o más hay que igualar todos los atributos que formen parte de la clave.
+- Como recomendación lo primero, es decir, en el where las condiciones base.
+
+Operadores:
+
+Según la primera clasificación tenemos dos tipos de operadores, unarios y binarios pero existe otra clasificación que 
+es la que vamos a ver a continuación.
+	Operadores de comparación y lógicos
+		=, != o <>, <, >, <=, >=, NOT, AND, OR
+	Operadores aritmeticos
+		Se pueden combinar como se deseen y tienen la misma presedencia que las expresiones regulares que en
+		programación. Para variar esa presedencia se pueden utilizar los parentesis.
+		+, - Sumar y restar
+		+, - Positivo y negativo
+		*, / Multiplicar y dividir
+		DIV  División entera
+		MOD o % Resto de la división
+		(,)  Parentesis
+	Operadores de caracteres
+		Nombre del campo [NOT] like [Binary] 'patron' --> [no] como [diferencia entre mayuscula y minuscula](patron)
+Sirve para seleccionar cadenas de caracteres parecidas a un patrón. Tiene unos comodines que son el % y el subrayado
+que representan los mismo que el * y la ? en el MS-DOS, es decir, el % equivale a 0 o varios caracteres faltantes
+y el subrayado equivale a 1 y solo 1 caracterer subrayado.
+	Operadores especiales y de grupo
+		1º-NombreCampo [NOT] in (listaValores|Sobresalto)
+		2º-NombreCampo [NOT] BETWEEN Inicio AND fin
+		3º-NombreCampo IS [NOT] NULL
+1º-Comprueba si el valor de un campo es igual o no a algunos de los valores de la lista o subconsulta. Pertenece o no a un
+grupo de valores.
+
+2º-Comprueba si el valor del campo esta o no entre los valores indicados, incluidos los extremos. También funcionan con 
+cadenas de caracteres.
+
+3º-Comprueba si el valor del campo es o no nulo.

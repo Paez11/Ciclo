@@ -1,0 +1,23 @@
+git init(iniciar rastreo en una carpeta)
+
+git add . (toda la carpeta en la que te encuentras)
+git add -A (todos los archivos)
+git add (archivo en concreto)
+
+git diff(para ver los cambios modificados)
+git log (si queremos hacer crtl+z)
+git checkpoint (copias el commit que quieres regresar)
+
+git commit -m "mensaje"(checkpoint)
+
+git push(para subir los archivos traqueados)
+git push -u origin/main
+git pull(para bajar los archivos)
+
+git clone(clonar repositorio)
+
+git revert(pone encima uno de los comandos)
+
+git -u origin main
+
+git clean -df

@@ -1,0 +1,75 @@
+docker run [-it] [--name nombre] (imagen)
+exit
+docker start (nombre del contenedor)
+docker exec [-it] (nombre del contenedor) bash [bin/bash]
+docker stop (nombre del contenedor)
+docker rm (nombre del contenedor)
+docker ps
+
+docker run [-dit] [--name nombre] [-p puerto] (imagen)
+docker cp (archivo.extension) (nombre contenedor):(ruta del archivo) --> /usr/apache2/htdocs/index.html
+									/var/www/html
+docker run --name -e MYSQL_ROOT_PASSWORD=(contraseña) -p (puerto) -d docker.io/library/mariadb
+
+--mount type=bind,src=/home/usuario/web.dst=usr/local/apache2/htdocs
+mkdir [nombre]
+md [nombre] ( los mismo que mk)
+docker run -dit --name [nombre] -p 80:80 --mount type=bind,src=/home/usuario/web.dst=usr/local/apache2/htdocs httpd
+C:\programData\docker\volume (almacenamiento predeterminado de los volumenes)
+docker volumen create [nombre del volumen]
+docker volumen ls
+docker run [-dit] [--name nombre] -p 8080:80 --mount type=volumen,src=[nombre del archivo], dst=/usr/local/apache2/htdocs httpd
+cd .\[nombre]
+C:\User\Victo\miweb:/directorio de destino
+
+Manipulación de redes:
+
+docker network
+docker inspect (nombre del contenedor)
+docker network ls
+
+docker network inspect (nombre de la red o el que viene por defecto)
+docker network create [-d (tipo de conexión NAT bridget) --subnet (ip) //ejemplo de una cualquiera {172.28.1.0/24} 
+--gateway (puerta de enlace) {172.28.1.1} (nombre que le quieras poner a la red) 
+docker run -d --network (nombre de la red) [--ip 172.28.1.10 -h database {-e MARIADB_ROOT_PASSWORD=ROOT}{-e MYSQL_DATABASE=
+(login) --name (nombre) mariadb}]
+
+docker run -d -e MYSQL_ROOT_PASSWORD=root -e PMA_HOST=(ip del host) --network (nombre de la red) (puerto)-->{8081:80}
+--name (nombre) phpmyadmin
+
+docker run --name basededatos -e MYSQL_ROOT_PASSWORD=secret123 -e MYSQL_DATABASE=wordpress -
+-ip 172.17.0.100 -d mariadb 									//te conecta a la ip estaticamente de bridge
+
+
+docker run --name miwordpress -p 80:80 -d wordpress
+
+docker run --name basededatos --ip (ip) -e MYSQL_ROOT_PASSWORD=secret123 -e MYSQL_DATABASE=wordpress -
+-d --net (nombre de la red) -h (nombre del host) mariadb 
+
+docker run -d -p 80:80 --name (nombre del contenedor) --net (contenedor o red) wordpress
+
+sudo docker services docker start
+chkconfig docker on
+
+usuario: victor117
+contraseña: WQqI1ZIn4GRs*LBP0X
+
+base de datos: V8B3u86cHFK.5F#
+
+sudo crontab -e
+	y	--> escribir
+	Esc	--> dejar de escribir
+	:x	--> guardar el archivo
+
+
+docker-compose
+
+Hay que estar en la carpeta en la que se encuentre el archivo .yaml para ejecutar la libreria compose
+
+docker compose up -d los inicia
+
+docker compose down -v borra los contenedores
+
+docker compose exec accedemos al contenedor
+
+docker compose stop los para

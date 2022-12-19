@@ -1,0 +1,113 @@
+SQL:
+-Structured query language
+
+mysql [-u usuario] [-p[contraseña]] [-h IP:NombreHost] [BaseDatos]
+
+password:root
+
+show databases;
+select
+select version();
+select sysdate();
+select curtime();
+select curdate();
+use "base_datos";
+quit;
+show tables;
+use solomotor;
+drop view "nombre_vista";
+drop tipoObjeto NombreObjeto [Parámetros];
+help [comando]; / ?[comando];
+status;
+show status;
+show warnings;
+prompt [texto];
+textoprompt;
+
+tee (ruta para el fichero)fichero; (guarda el historial del cliente en un fichero en la misma carpeta)
+notee; (deja de grabar)
+
+select [operacion matematica];
+select 1=1/1=0;
+
+desc (base de datos); (muestra todas las entidades)
+show tables;
+
+desc (entidad); (muestra todo lo que tiene la entidad)
+
+create database (nombre);
+use (nombre);
+
+create table (nombre)(
+	(nombre) (TIPO) [TIPO DE CLAVE],/;
+
+insert into (nombre tabla) values ([lugar], ["nombre"]),/;
+
+select *-->(muestra todas las columnas) from (nombre de la tabla);
+select (atributo) from (nombre de la tabla);
+
+sql -u root -p root
+C:\Program Files\Mariadb\
+
+select count((numero de registros)) from (nombre de la tabla);
+
+select avg(nombre)-->//media from (tabla) where (atributo) like '(letra)%';
+
+alter table (nombre) add (nuevo atributo) (valor);
+
+update (nombre de la tabla) set (nombre atributo) =[nuevo valor];
+
+create user (nombre);
+
+set variable=valor;
+Ejemplo: set password=password("contraseña");
+
+create (tipo de objeto) [opciones];
+
+grand --> forma actual de crear usuario)
+
+prompt [texto];
+
+#comentario;
+/* comentario
+=
+*/
+ 
+Tipos de prompt:
+
+/* ---> comentario
+-> ---> Argumento empezado que no esta terminado
+'> ---> Hay unas comillas simples que no están cerradas
+"> ---> Lo mismo que las comillas simples
+
+variables del entorno:
+
+select version();
+select current_date, current_date();
+select now();
+select variable;
+
+interacciones de composición y calculo:
+
+operadores *,/,+,-,div,%
+pi(),cos(),sin()
+select 1=1;
+
+Uso basico de base de datos:
+
+Create database (nombre);
+show databases;
+use (nombre);
+select databases();
+drop database (nombre);
+
+update (nombre tabla) set (tupla) = '(nuevo nombre)' where (indicamos donde queramos) like '(elementos que queramos%)';
+
+show databases [like 'patron']
+
+source (fichero de texto)      --> si creamos un fichero de texto con comandos dentro de la ruta donde tengamos mariadb ejecuta todos los comandos
+
+select * from inmuebles order by (nombre) sobre todo para fechas;
+
+select * from inmuebles where (nombre de la tupla)(simbolo)(lo que buscas) or (nombre de la tupla)(simbolo)(lo que buscas);
+

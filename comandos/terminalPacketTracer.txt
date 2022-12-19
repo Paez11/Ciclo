@@ -1,0 +1,27 @@
+enable 					//encender el router
+configure terminal // config t 		//lleva a la configuracion
+interface fa0/0				//conecta al puerto para configurar
+ip address 192.168.1.1 255.255.255.0	//indicas la ip del router junto con la mascara
+no shutdown				//no se apague el router
+exit					//salir de la config
+
+Para enroutar
+ip route (ip de la que parte) (mascara) (cable)	
+
+//ejemplo:
+ip route 192.168.2.0 255.255.255.0 fa0/1
+
+CLI:					//Para configurar un cable
+
+enable
+conf t
+interface (cable que quieras configurar)
+ip address (puerta de enlace para establecer) (mascara)
+no shutdown
+exit
+
+tabla de enroutamiento:
+
+enable 
+config t
+ip route (ip a la que va) (mascara) (cable por el que sale)
