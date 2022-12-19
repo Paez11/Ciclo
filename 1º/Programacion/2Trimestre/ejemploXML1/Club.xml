@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Club>
+    <socios Identificador="1" Nombre="Ana">
+        <fechaAlta>21/02/2021</fechaAlta>
+    </socios>
+    <socios Identificador="24" Nombre="Antonio">
+        <fechaAlta>1/12/2021</fechaAlta>
+    </socios>
+    <socios Identificador="85" Nombre="Pedro">
+        <fechaAlta>3/2/2022</fechaAlta>
+    </socios>
+</Club>
