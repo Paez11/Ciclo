@@ -77,11 +77,11 @@ docker compose stop los para
 -------------------------------------------------------------------------------------------------------------------------
 
 docker run -d --network some-network --name some-mongo \
--e MONGO_INITDB_ROOT_USERNAME=mongoadmin \
--e MONGO_INITDB_ROOT_PASSWORD=secret \
+-e MONGO_INITDB_ROOT_USERNAME= \
+-e MONGO_INITDB_ROOT_PASSWORD= \
 mongo:tag
 
-docker run -d --name mongodb-bda1 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=admin --mount type=bind,src=/home/jaime/BigData/BDA/,dst=/home/bda mongo:latest
+docker run -d --name mongodb-bda1 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=admin --mount type=bind,src=dd,dst=/home/bda mongo:latest
 
 docker run -d --name mongodb-bda1 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=admin mongo:latest
 docker cp fichero mongo:/directorio
@@ -90,8 +90,8 @@ docker cp restaurantes1.csv mongodb-bda1:/tmp
 
 docker exec -it mongodb-bda1 sh
 
-mongoimport --db=db_ej1_restaurantes --collection=restaurantes --file=tmp/restaurantes1.csv --authenticationDatabase=admin --username=admin --password=admin
+mongoimport --db= --collection=restaurantes --file=tmp/.csv --authenticationDatabase=admin --username= --password=
 
 mongosh
 use admin
-db.auth("admin","admin")
+db.auth("user","password")
