@@ -73,3 +73,25 @@ docker compose down -v borra los contenedores
 docker compose exec accedemos al contenedor
 
 docker compose stop los para
+
+-------------------------------------------------------------------------------------------------------------------------
+
+docker run -d --network some-network --name some-mongo \
+-e MONGO_INITDB_ROOT_USERNAME=mongoadmin \
+-e MONGO_INITDB_ROOT_PASSWORD=secret \
+mongo:tag
+
+docker run -d --name mongodb-bda1 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=admin --mount type=bind,src=/home/jaime/BigData/BDA/,dst=/home/bda mongo:latest
+
+docker run -d --name mongodb-bda1 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=admin mongo:latest
+docker cp fichero mongo:/directorio
+
+docker cp restaurantes1.csv mongodb-bda1:/tmp
+
+docker exec -it mongodb-bda1 sh
+
+mongoimport --db=db_ej1_restaurantes --collection=restaurantes --file=tmp/restaurantes1.csv --authenticationDatabase=admin --username=admin --password=admin
+
+mongosh
+use admin
+db.auth("admin","admin")
